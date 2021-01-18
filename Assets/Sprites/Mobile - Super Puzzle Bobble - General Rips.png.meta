@@ -1,0 +1,5593 @@
+fileFormatVersion: 2
+guid: 64d8df8f9c219fb42b2a455a2b26983d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6155089734278398091
+    second: Mobile - Super Puzzle Bobble - General Rips_0
+  - first:
+      213: 7717085854153165524
+    second: Mobile - Super Puzzle Bobble - General Rips_1
+  - first:
+      213: -7772146126540344697
+    second: Mobile - Super Puzzle Bobble - General Rips_2
+  - first:
+      213: 7946708130862813562
+    second: Mobile - Super Puzzle Bobble - General Rips_3
+  - first:
+      213: -1265480089709202557
+    second: Mobile - Super Puzzle Bobble - General Rips_4
+  - first:
+      213: -902664652493007550
+    second: Mobile - Super Puzzle Bobble - General Rips_5
+  - first:
+      213: -7783055205413791922
+    second: Mobile - Super Puzzle Bobble - General Rips_6
+  - first:
+      213: -6803761515860470097
+    second: Mobile - Super Puzzle Bobble - General Rips_7
+  - first:
+      213: -6006194593646295128
+    second: Mobile - Super Puzzle Bobble - General Rips_8
+  - first:
+      213: 3352335917609849524
+    second: Mobile - Super Puzzle Bobble - General Rips_9
+  - first:
+      213: -1525432320007821017
+    second: Mobile - Super Puzzle Bobble - General Rips_10
+  - first:
+      213: -368436516716937596
+    second: Mobile - Super Puzzle Bobble - General Rips_11
+  - first:
+      213: -797015647158726695
+    second: Mobile - Super Puzzle Bobble - General Rips_12
+  - first:
+      213: -1162681147577942902
+    second: Mobile - Super Puzzle Bobble - General Rips_13
+  - first:
+      213: -3925663951204875299
+    second: Mobile - Super Puzzle Bobble - General Rips_14
+  - first:
+      213: 815028178963896032
+    second: Mobile - Super Puzzle Bobble - General Rips_15
+  - first:
+      213: 9196544311346634176
+    second: Mobile - Super Puzzle Bobble - General Rips_16
+  - first:
+      213: -6259190817615674187
+    second: Mobile - Super Puzzle Bobble - General Rips_17
+  - first:
+      213: -4924082265526861938
+    second: Mobile - Super Puzzle Bobble - General Rips_18
+  - first:
+      213: -3831494179547052951
+    second: Mobile - Super Puzzle Bobble - General Rips_19
+  - first:
+      213: 7975674607442412607
+    second: Mobile - Super Puzzle Bobble - General Rips_20
+  - first:
+      213: 5447793066293535810
+    second: Mobile - Super Puzzle Bobble - General Rips_21
+  - first:
+      213: 3558193373206745716
+    second: Mobile - Super Puzzle Bobble - General Rips_22
+  - first:
+      213: 7952202600883869430
+    second: Mobile - Super Puzzle Bobble - General Rips_23
+  - first:
+      213: -1327803524561237785
+    second: Mobile - Super Puzzle Bobble - General Rips_24
+  - first:
+      213: -3785415527769250681
+    second: Mobile - Super Puzzle Bobble - General Rips_25
+  - first:
+      213: -3777522331008746144
+    second: Mobile - Super Puzzle Bobble - General Rips_26
+  - first:
+      213: -6149440174678292388
+    second: Mobile - Super Puzzle Bobble - General Rips_27
+  - first:
+      213: 4150966252271939127
+    second: Mobile - Super Puzzle Bobble - General Rips_28
+  - first:
+      213: -8948459411512865108
+    second: Mobile - Super Puzzle Bobble - General Rips_29
+  - first:
+      213: -9087868533365719601
+    second: Mobile - Super Puzzle Bobble - General Rips_30
+  - first:
+      213: 8268826275171908210
+    second: Mobile - Super Puzzle Bobble - General Rips_31
+  - first:
+      213: 8650167286148846217
+    second: Mobile - Super Puzzle Bobble - General Rips_32
+  - first:
+      213: 5672072126185029151
+    second: Mobile - Super Puzzle Bobble - General Rips_33
+  - first:
+      213: -5633875158114849659
+    second: Mobile - Super Puzzle Bobble - General Rips_34
+  - first:
+      213: -4331184296169573174
+    second: Mobile - Super Puzzle Bobble - General Rips_35
+  - first:
+      213: -2596633736303523151
+    second: Mobile - Super Puzzle Bobble - General Rips_36
+  - first:
+      213: -2864398973288119547
+    second: Mobile - Super Puzzle Bobble - General Rips_37
+  - first:
+      213: -6242347594051959941
+    second: Mobile - Super Puzzle Bobble - General Rips_38
+  - first:
+      213: 4943053259126018327
+    second: Mobile - Super Puzzle Bobble - General Rips_39
+  - first:
+      213: 55231608756057312
+    second: Mobile - Super Puzzle Bobble - General Rips_40
+  - first:
+      213: 8078555399696173517
+    second: Mobile - Super Puzzle Bobble - General Rips_41
+  - first:
+      213: -1041675235450083157
+    second: Mobile - Super Puzzle Bobble - General Rips_42
+  - first:
+      213: 1487783035546155108
+    second: Mobile - Super Puzzle Bobble - General Rips_43
+  - first:
+      213: 3806679501584176603
+    second: Mobile - Super Puzzle Bobble - General Rips_44
+  - first:
+      213: 1172575546053691598
+    second: Mobile - Super Puzzle Bobble - General Rips_45
+  - first:
+      213: 6639422506594159466
+    second: Mobile - Super Puzzle Bobble - General Rips_46
+  - first:
+      213: -7902405751618404635
+    second: Mobile - Super Puzzle Bobble - General Rips_47
+  - first:
+      213: 2378234748970763925
+    second: Mobile - Super Puzzle Bobble - General Rips_48
+  - first:
+      213: 639159266036768016
+    second: Mobile - Super Puzzle Bobble - General Rips_49
+  - first:
+      213: -4432092504917934263
+    second: Mobile - Super Puzzle Bobble - General Rips_50
+  - first:
+      213: 5180819263583923573
+    second: Mobile - Super Puzzle Bobble - General Rips_51
+  - first:
+      213: -398958876132251680
+    second: Mobile - Super Puzzle Bobble - General Rips_52
+  - first:
+      213: 9086400525430266995
+    second: Mobile - Super Puzzle Bobble - General Rips_53
+  - first:
+      213: 4180656724177823469
+    second: Mobile - Super Puzzle Bobble - General Rips_54
+  - first:
+      213: 5244035131383312833
+    second: Mobile - Super Puzzle Bobble - General Rips_55
+  - first:
+      213: 1347999664706966682
+    second: Mobile - Super Puzzle Bobble - General Rips_56
+  - first:
+      213: -4699056310083938432
+    second: Mobile - Super Puzzle Bobble - General Rips_57
+  - first:
+      213: -6342298810776202901
+    second: Mobile - Super Puzzle Bobble - General Rips_58
+  - first:
+      213: -773196700609876676
+    second: Mobile - Super Puzzle Bobble - General Rips_59
+  - first:
+      213: 553062843115316314
+    second: Mobile - Super Puzzle Bobble - General Rips_60
+  - first:
+      213: -9021614688634627440
+    second: Mobile - Super Puzzle Bobble - General Rips_61
+  - first:
+      213: 5263808267588002272
+    second: Mobile - Super Puzzle Bobble - General Rips_62
+  - first:
+      213: 9220113102147839096
+    second: Mobile - Super Puzzle Bobble - General Rips_63
+  - first:
+      213: -8916115084413465677
+    second: Mobile - Super Puzzle Bobble - General Rips_64
+  - first:
+      213: 2786144462185751118
+    second: Mobile - Super Puzzle Bobble - General Rips_65
+  - first:
+      213: -5706607435378668303
+    second: Mobile - Super Puzzle Bobble - General Rips_66
+  - first:
+      213: -7020812410865040434
+    second: Mobile - Super Puzzle Bobble - General Rips_67
+  - first:
+      213: -4810797767471384880
+    second: Mobile - Super Puzzle Bobble - General Rips_68
+  - first:
+      213: 8951338803689177968
+    second: Mobile - Super Puzzle Bobble - General Rips_69
+  - first:
+      213: -3803087699132676439
+    second: Mobile - Super Puzzle Bobble - General Rips_70
+  - first:
+      213: -9114906797780571537
+    second: Mobile - Super Puzzle Bobble - General Rips_71
+  - first:
+      213: 2845339516091597759
+    second: Mobile - Super Puzzle Bobble - General Rips_72
+  - first:
+      213: -8456496727940007452
+    second: Mobile - Super Puzzle Bobble - General Rips_73
+  - first:
+      213: 2719345008722546831
+    second: Mobile - Super Puzzle Bobble - General Rips_74
+  - first:
+      213: 1760397400816237978
+    second: Mobile - Super Puzzle Bobble - General Rips_75
+  - first:
+      213: -7849731035531683286
+    second: Mobile - Super Puzzle Bobble - General Rips_76
+  - first:
+      213: -2716378074235717596
+    second: Mobile - Super Puzzle Bobble - General Rips_77
+  - first:
+      213: 5616038226238234997
+    second: Mobile - Super Puzzle Bobble - General Rips_78
+  - first:
+      213: 1258959896952960209
+    second: Mobile - Super Puzzle Bobble - General Rips_79
+  - first:
+      213: 7556087114182357289
+    second: Mobile - Super Puzzle Bobble - General Rips_80
+  - first:
+      213: -3642464221503456727
+    second: Mobile - Super Puzzle Bobble - General Rips_81
+  - first:
+      213: 2048076448201152530
+    second: Mobile - Super Puzzle Bobble - General Rips_82
+  - first:
+      213: 1854329643136373200
+    second: Mobile - Super Puzzle Bobble - General Rips_83
+  - first:
+      213: 5729847176312638467
+    second: Mobile - Super Puzzle Bobble - General Rips_84
+  - first:
+      213: -1650674111819608215
+    second: Mobile - Super Puzzle Bobble - General Rips_85
+  - first:
+      213: 7918800276164245186
+    second: Mobile - Super Puzzle Bobble - General Rips_86
+  - first:
+      213: -6073400934897669818
+    second: Mobile - Super Puzzle Bobble - General Rips_87
+  - first:
+      213: 451228898405189458
+    second: Mobile - Super Puzzle Bobble - General Rips_88
+  - first:
+      213: 510905418382590024
+    second: Mobile - Super Puzzle Bobble - General Rips_89
+  - first:
+      213: 2500668603144531135
+    second: Mobile - Super Puzzle Bobble - General Rips_90
+  - first:
+      213: 3326954240795155673
+    second: Mobile - Super Puzzle Bobble - General Rips_91
+  - first:
+      213: -2519164199575355198
+    second: Mobile - Super Puzzle Bobble - General Rips_92
+  - first:
+      213: 1056798547483462995
+    second: Mobile - Super Puzzle Bobble - General Rips_93
+  - first:
+      213: -6392948329705340894
+    second: Mobile - Super Puzzle Bobble - General Rips_94
+  - first:
+      213: -6805841288611905728
+    second: Mobile - Super Puzzle Bobble - General Rips_95
+  - first:
+      213: 8565002236745432786
+    second: Mobile - Super Puzzle Bobble - General Rips_96
+  - first:
+      213: 8004094569431292641
+    second: Mobile - Super Puzzle Bobble - General Rips_97
+  - first:
+      213: 5340961194594041367
+    second: Mobile - Super Puzzle Bobble - General Rips_98
+  - first:
+      213: 9153604541310542370
+    second: Mobile - Super Puzzle Bobble - General Rips_99
+  - first:
+      213: -2304943141096825889
+    second: Mobile - Super Puzzle Bobble - General Rips_100
+  - first:
+      213: -8036419585410689965
+    second: Mobile - Super Puzzle Bobble - General Rips_101
+  - first:
+      213: 5697228566787767911
+    second: Mobile - Super Puzzle Bobble - General Rips_102
+  - first:
+      213: 4154009391756944329
+    second: Mobile - Super Puzzle Bobble - General Rips_103
+  - first:
+      213: 2949898007766231600
+    second: Mobile - Super Puzzle Bobble - General Rips_104
+  - first:
+      213: -3783817630876180725
+    second: Mobile - Super Puzzle Bobble - General Rips_105
+  - first:
+      213: 2027061276785641030
+    second: Mobile - Super Puzzle Bobble - General Rips_106
+  - first:
+      213: -3702150914315084420
+    second: Mobile - Super Puzzle Bobble - General Rips_107
+  - first:
+      213: -2796755948303634507
+    second: Mobile - Super Puzzle Bobble - General Rips_108
+  - first:
+      213: 6540441289312918812
+    second: Mobile - Super Puzzle Bobble - General Rips_109
+  - first:
+      213: -2141218990795035032
+    second: Mobile - Super Puzzle Bobble - General Rips_110
+  - first:
+      213: 6101614438615873110
+    second: Mobile - Super Puzzle Bobble - General Rips_111
+  - first:
+      213: 1022121956188834185
+    second: Mobile - Super Puzzle Bobble - General Rips_112
+  - first:
+      213: -2244243648316084323
+    second: Mobile - Super Puzzle Bobble - General Rips_113
+  - first:
+      213: 5595093326081978264
+    second: Mobile - Super Puzzle Bobble - General Rips_114
+  - first:
+      213: 1203519275441065034
+    second: Mobile - Super Puzzle Bobble - General Rips_115
+  - first:
+      213: 5310174654461329683
+    second: Mobile - Super Puzzle Bobble - General Rips_116
+  - first:
+      213: 4784029924776031997
+    second: Mobile - Super Puzzle Bobble - General Rips_117
+  - first:
+      213: -6988491767936258103
+    second: Mobile - Super Puzzle Bobble - General Rips_118
+  - first:
+      213: 8819132249506557596
+    second: Mobile - Super Puzzle Bobble - General Rips_119
+  - first:
+      213: -6511585022776098555
+    second: Mobile - Super Puzzle Bobble - General Rips_120
+  - first:
+      213: 8310161439826806089
+    second: Mobile - Super Puzzle Bobble - General Rips_121
+  - first:
+      213: -5695369840930933672
+    second: Mobile - Super Puzzle Bobble - General Rips_122
+  - first:
+      213: 4761181973865985499
+    second: Mobile - Super Puzzle Bobble - General Rips_123
+  - first:
+      213: -765158956599601777
+    second: Mobile - Super Puzzle Bobble - General Rips_124
+  - first:
+      213: -3639976860863093954
+    second: Mobile - Super Puzzle Bobble - General Rips_125
+  - first:
+      213: 3671905160307592472
+    second: Mobile - Super Puzzle Bobble - General Rips_126
+  - first:
+      213: 4082042267521387811
+    second: Mobile - Super Puzzle Bobble - General Rips_127
+  - first:
+      213: 3630333443385721612
+    second: Mobile - Super Puzzle Bobble - General Rips_128
+  - first:
+      213: -6350436104975442069
+    second: Mobile - Super Puzzle Bobble - General Rips_129
+  - first:
+      213: -7115423416530027073
+    second: Mobile - Super Puzzle Bobble - General Rips_130
+  - first:
+      213: 1436078416971549304
+    second: Mobile - Super Puzzle Bobble - General Rips_131
+  - first:
+      213: 6848026970789748775
+    second: Mobile - Super Puzzle Bobble - General Rips_132
+  - first:
+      213: -8329321735991644481
+    second: Mobile - Super Puzzle Bobble - General Rips_133
+  - first:
+      213: 4791273485985676436
+    second: Mobile - Super Puzzle Bobble - General Rips_134
+  - first:
+      213: 225964767695263870
+    second: Mobile - Super Puzzle Bobble - General Rips_135
+  - first:
+      213: 4022664346330955350
+    second: Mobile - Super Puzzle Bobble - General Rips_136
+  - first:
+      213: -7909727877328219615
+    second: Mobile - Super Puzzle Bobble - General Rips_137
+  - first:
+      213: -3825114282641315030
+    second: Mobile - Super Puzzle Bobble - General Rips_138
+  - first:
+      213: 21888076489384187
+    second: Mobile - Super Puzzle Bobble - General Rips_139
+  - first:
+      213: -1685941652304006264
+    second: Mobile - Super Puzzle Bobble - General Rips_140
+  - first:
+      213: 6563238385952732614
+    second: Mobile - Super Puzzle Bobble - General Rips_141
+  - first:
+      213: 2465626516601927123
+    second: Mobile - Super Puzzle Bobble - General Rips_142
+  - first:
+      213: -8677158007472235980
+    second: Mobile - Super Puzzle Bobble - General Rips_143
+  - first:
+      213: 1746069642053436248
+    second: Mobile - Super Puzzle Bobble - General Rips_144
+  - first:
+      213: -1429787583185779976
+    second: Mobile - Super Puzzle Bobble - General Rips_145
+  - first:
+      213: -8759140507398114581
+    second: Mobile - Super Puzzle Bobble - General Rips_146
+  - first:
+      213: 7503285664619575159
+    second: Mobile - Super Puzzle Bobble - General Rips_147
+  - first:
+      213: -2299270578980741910
+    second: Mobile - Super Puzzle Bobble - General Rips_148
+  - first:
+      213: -8399415623798026506
+    second: Mobile - Super Puzzle Bobble - General Rips_149
+  - first:
+      213: -7680890820664860974
+    second: Mobile - Super Puzzle Bobble - General Rips_150
+  - first:
+      213: 8564586313150237616
+    second: Mobile - Super Puzzle Bobble - General Rips_151
+  - first:
+      213: -6538715405150188322
+    second: Mobile - Super Puzzle Bobble - General Rips_152
+  - first:
+      213: -6306934015048876866
+    second: Mobile - Super Puzzle Bobble - General Rips_153
+  - first:
+      213: 7317178806924902396
+    second: Mobile - Super Puzzle Bobble - General Rips_154
+  - first:
+      213: -1289291037188354088
+    second: Mobile - Super Puzzle Bobble - General Rips_155
+  - first:
+      213: 2448068756537155032
+    second: Mobile - Super Puzzle Bobble - General Rips_156
+  - first:
+      213: -3292057327780186730
+    second: Mobile - Super Puzzle Bobble - General Rips_157
+  - first:
+      213: -1331150425723365604
+    second: Mobile - Super Puzzle Bobble - General Rips_158
+  - first:
+      213: 6614243022807366204
+    second: Mobile - Super Puzzle Bobble - General Rips_159
+  - first:
+      213: 7901135957098731612
+    second: Mobile - Super Puzzle Bobble - General Rips_160
+  - first:
+      213: -8120344172169359437
+    second: Mobile - Super Puzzle Bobble - General Rips_161
+  - first:
+      213: 4242951964096668574
+    second: Mobile - Super Puzzle Bobble - General Rips_162
+  - first:
+      213: -8118272566856987393
+    second: Mobile - Super Puzzle Bobble - General Rips_163
+  - first:
+      213: -8234854891728224332
+    second: Mobile - Super Puzzle Bobble - General Rips_164
+  - first:
+      213: 2069074731557728105
+    second: Mobile - Super Puzzle Bobble - General Rips_165
+  - first:
+      213: 4165293669337249533
+    second: Mobile - Super Puzzle Bobble - General Rips_166
+  - first:
+      213: -3910990182163420938
+    second: Mobile - Super Puzzle Bobble - General Rips_167
+  - first:
+      213: 8947314527256251718
+    second: Mobile - Super Puzzle Bobble - General Rips_168
+  - first:
+      213: 7090977488385353355
+    second: Mobile - Super Puzzle Bobble - General Rips_169
+  - first:
+      213: -6562030755489721116
+    second: Mobile - Super Puzzle Bobble - General Rips_170
+  - first:
+      213: -3928837654737797309
+    second: Mobile - Super Puzzle Bobble - General Rips_171
+  - first:
+      213: 6512158581568278774
+    second: Mobile - Super Puzzle Bobble - General Rips_172
+  - first:
+      213: 8839912804648320445
+    second: Mobile - Super Puzzle Bobble - General Rips_173
+  - first:
+      213: -3045457670392840991
+    second: Mobile - Super Puzzle Bobble - General Rips_174
+  - first:
+      213: 8386988997822532282
+    second: Mobile - Super Puzzle Bobble - General Rips_175
+  - first:
+      213: -2353793715853853832
+    second: Mobile - Super Puzzle Bobble - General Rips_176
+  - first:
+      213: 4551893125188374706
+    second: Mobile - Super Puzzle Bobble - General Rips_177
+  - first:
+      213: -1994871222504828065
+    second: Mobile - Super Puzzle Bobble - General Rips_178
+  - first:
+      213: 4543916981569668771
+    second: Mobile - Super Puzzle Bobble - General Rips_179
+  - first:
+      213: -8871960462313454889
+    second: Mobile - Super Puzzle Bobble - General Rips_180
+  - first:
+      213: 6818574088810308031
+    second: Mobile - Super Puzzle Bobble - General Rips_181
+  - first:
+      213: -5731295119592248657
+    second: Mobile - Super Puzzle Bobble - General Rips_182
+  - first:
+      213: 5457451844315466762
+    second: Mobile - Super Puzzle Bobble - General Rips_183
+  - first:
+      213: 1908434949390314364
+    second: Mobile - Super Puzzle Bobble - General Rips_184
+  - first:
+      213: 710974637320647961
+    second: Mobile - Super Puzzle Bobble - General Rips_185
+  - first:
+      213: 3466551279128492467
+    second: Mobile - Super Puzzle Bobble - General Rips_186
+  - first:
+      213: -7850817158622045853
+    second: Mobile - Super Puzzle Bobble - General Rips_187
+  - first:
+      213: -31739010533605519
+    second: Mobile - Super Puzzle Bobble - General Rips_188
+  - first:
+      213: -3532235195800547825
+    second: Mobile - Super Puzzle Bobble - General Rips_189
+  - first:
+      213: 8443161297784656525
+    second: Mobile - Super Puzzle Bobble - General Rips_190
+  - first:
+      213: 1197834697386823123
+    second: Mobile - Super Puzzle Bobble - General Rips_191
+  - first:
+      213: -6024076632689510025
+    second: Mobile - Super Puzzle Bobble - General Rips_192
+  - first:
+      213: 3301844847219888263
+    second: Mobile - Super Puzzle Bobble - General Rips_193
+  - first:
+      213: -6119738081800197637
+    second: Mobile - Super Puzzle Bobble - General Rips_194
+  - first:
+      213: 2092757476546956190
+    second: Mobile - Super Puzzle Bobble - General Rips_195
+  - first:
+      213: 3351900195332499903
+    second: Mobile - Super Puzzle Bobble - General Rips_196
+  - first:
+      213: -7045329191081619861
+    second: Mobile - Super Puzzle Bobble - General Rips_197
+  - first:
+      213: -1845917441661371254
+    second: Mobile - Super Puzzle Bobble - General Rips_198
+  - first:
+      213: 4138394645880420273
+    second: Mobile - Super Puzzle Bobble - General Rips_199
+  - first:
+      213: -1180448191332800523
+    second: Mobile - Super Puzzle Bobble - General Rips_200
+  - first:
+      213: 4408754668505444859
+    second: Mobile - Super Puzzle Bobble - General Rips_201
+  - first:
+      213: 1450194962682606493
+    second: Mobile - Super Puzzle Bobble - General Rips_202
+  - first:
+      213: -2894534862184173582
+    second: Mobile - Super Puzzle Bobble - General Rips_203
+  - first:
+      213: -1387576116237629356
+    second: Mobile - Super Puzzle Bobble - General Rips_204
+  - first:
+      213: 336439613470596323
+    second: Mobile - Super Puzzle Bobble - General Rips_205
+  - first:
+      213: 6757177810671210158
+    second: Mobile - Super Puzzle Bobble - General Rips_206
+  - first:
+      213: -4343667656175966994
+    second: Mobile - Super Puzzle Bobble - General Rips_207
+  - first:
+      213: 7559973530096776411
+    second: Mobile - Super Puzzle Bobble - General Rips_208
+  - first:
+      213: 3487339857239532655
+    second: Mobile - Super Puzzle Bobble - General Rips_209
+  - first:
+      213: -2793654330026020427
+    second: Mobile - Super Puzzle Bobble - General Rips_210
+  - first:
+      213: -7756499463529504633
+    second: Mobile - Super Puzzle Bobble - General Rips_211
+  - first:
+      213: -1415923876532264243
+    second: Mobile - Super Puzzle Bobble - General Rips_212
+  - first:
+      213: 5036535046566361707
+    second: Mobile - Super Puzzle Bobble - General Rips_213
+  - first:
+      213: -8968955615289588518
+    second: Mobile - Super Puzzle Bobble - General Rips_214
+  - first:
+      213: -9186367930796578021
+    second: Mobile - Super Puzzle Bobble - General Rips_215
+  - first:
+      213: -2854215038497739101
+    second: Mobile - Super Puzzle Bobble - General Rips_216
+  - first:
+      213: -4644525620183000887
+    second: Mobile - Super Puzzle Bobble - General Rips_217
+  - first:
+      213: -2252622987623487041
+    second: Mobile - Super Puzzle Bobble - General Rips_218
+  - first:
+      213: -5434417805729169498
+    second: Mobile - Super Puzzle Bobble - General Rips_219
+  - first:
+      213: -919360282191588047
+    second: Mobile - Super Puzzle Bobble - General Rips_220
+  - first:
+      213: 4119293062707433517
+    second: Mobile - Super Puzzle Bobble - General Rips_221
+  - first:
+      213: -7490863875887128208
+    second: Mobile - Super Puzzle Bobble - General Rips_222
+  - first:
+      213: 8447383262558955625
+    second: Mobile - Super Puzzle Bobble - General Rips_223
+  - first:
+      213: 6423439935391509791
+    second: Mobile - Super Puzzle Bobble - General Rips_224
+  - first:
+      213: 1475642232804503052
+    second: Mobile - Super Puzzle Bobble - General Rips_225
+  - first:
+      213: -3298311723082570542
+    second: Mobile - Super Puzzle Bobble - General Rips_226
+  - first:
+      213: -7017641239863039269
+    second: Mobile - Super Puzzle Bobble - General Rips_227
+  - first:
+      213: -6515300872360681769
+    second: Mobile - Super Puzzle Bobble - General Rips_228
+  - first:
+      213: 4260499633232298568
+    second: Mobile - Super Puzzle Bobble - General Rips_229
+  - first:
+      213: 1862118675480089806
+    second: Mobile - Super Puzzle Bobble - General Rips_230
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1142
+        width: 214
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c508a0dc1372c54f88fca6aeb2bff0c
+      internalID: -6155089734278398091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_1
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1019
+        width: 240
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0b13ba7076b70e499242a8b4475feb1
+      internalID: 7717085854153165524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_2
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 1018
+        width: 240
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 920f996782e2b0a44be58d7f18c3b223
+      internalID: -7772146126540344697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_3
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 1075
+        width: 150
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21b24aee79330db4ea83480d9b2864cc
+      internalID: 7946708130862813562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_4
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 1029
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfe8bf1a56bdcd94daea9a0384a4ebc2
+      internalID: -1265480089709202557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_5
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 1029
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4c3f1eabadb0e84e9266980fbab38bb
+      internalID: -902664652493007550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_6
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 1029
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dc2b4968e2e66a4c8416a72da85dc6b
+      internalID: -7783055205413791922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_7
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 1046
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b0835236b8d50d44b3cb8178f1414ce
+      internalID: -6803761515860470097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_8
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 1029
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5a2ef1594ad70d4d83cc8f97b3d3ca7
+      internalID: -6006194593646295128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_9
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 997
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5794e672c980f274a8abdf9cfa2d3efa
+      internalID: 3352335917609849524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_10
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 997
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6892e1c2f4ff44d408cf4911b2adf7f9
+      internalID: -1525432320007821017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_11
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 997
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42f22be0acfba1b4fa405348d1276e0c
+      internalID: -368436516716937596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_12
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 997
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e46af62d5056344479c6cd9a1b120329
+      internalID: -797015647158726695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_13
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 963
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f48bebc9638d0c14c90f1c8587f30a6f
+      internalID: -1162681147577942902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_14
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 963
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eebea422f69376458ae064734df73f3
+      internalID: -3925663951204875299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_15
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 963
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eef0179956876ee4d85cfa66bb9444e4
+      internalID: 815028178963896032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_16
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 963
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68285923ed38c9c4e98ecf0139ca03a6
+      internalID: 9196544311346634176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_17
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 666
+        width: 240
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9a01679a7e12ce418d2def755b1a7ab
+      internalID: -6259190817615674187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_18
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 666
+        width: 240
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9de54a96ffc23fb4c948b92af82f226a
+      internalID: -4924082265526861938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_19
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 931
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64122cc13c65cc4468c71b94fb33728d
+      internalID: -3831494179547052951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_20
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 931
+        width: 33
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e838efe4f7bd1984a916f9fa1910ac86
+      internalID: 7975674607442412607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_21
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 931
+        width: 36
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 820adb5cc5cac3b49b3056f7b42975b2
+      internalID: 5447793066293535810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_22
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 931
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 737d007d22f59c449b2ea2acf9ff80eb
+      internalID: 3558193373206745716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_23
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 887
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59776fd71aa85d340bf3e9e0de9a6e74
+      internalID: 7952202600883869430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_24
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 887
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5580555da180193469536c11a345f8c2
+      internalID: -1327803524561237785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_25
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 887
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2caa1aefd9399864f9bf59b9ca7f37b9
+      internalID: -3785415527769250681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_26
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 887
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aad49f41f29e9041b3ea7bdd6402e47
+      internalID: -3777522331008746144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_27
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 887
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb60c330ac0f50c4f80567d4ea793090
+      internalID: -6149440174678292388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_28
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 857
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67ea05d54469f954eb62e5815783958e
+      internalID: 4150966252271939127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_29
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 857
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecd6d98a4a4efb149bf6432e306b0515
+      internalID: -8948459411512865108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_30
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 857
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78c1a1e5040918642a05c860ae4d65f2
+      internalID: -9087868533365719601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_31
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 857
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c6e9939a0b4c5e499f794450498b19d
+      internalID: 8268826275171908210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_32
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 857
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6117588f79cdcc948a12563af101b5a4
+      internalID: 8650167286148846217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_33
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 825
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35955c5a4c4331542a2c376ffa4328da
+      internalID: 5672072126185029151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_34
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 825
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0121f7b91a5a7c469f9b9ef267b54e7
+      internalID: -5633875158114849659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_35
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 825
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ef9549575346604f93642cc35023839
+      internalID: -4331184296169573174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_36
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 842
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6065594cc9c49384a8f8f0259e0a3375
+      internalID: -2596633736303523151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_37
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 843
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cd7e52f729a76e439b2e06d247d20c2
+      internalID: -2864398973288119547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_38
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 786
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c54be1b0a0558446b5c1e9a5f61f25e
+      internalID: -6242347594051959941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_39
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 786
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 365f126436206464b83fd186b293bdf4
+      internalID: 4943053259126018327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_40
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 786
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bf5397720e8f6f46ad79323c8e65c6c
+      internalID: 55231608756057312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_41
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 786
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 405d39fe1bc417f438743450140d11d7
+      internalID: 8078555399696173517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_42
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 756
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47ce7750af8f3a2439f75914bb841cca
+      internalID: -1041675235450083157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_43
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 756
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b16cd5568e8e66409b05ec2cb543089
+      internalID: 1487783035546155108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_44
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 756
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a13c816c8cb6924f807bafbbb9002ca
+      internalID: 3806679501584176603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_45
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 756
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9081b569256fe34ca4dd73662429f96
+      internalID: 1172575546053691598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_46
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 726
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 509e956e38bc17047817d5a2e5622b77
+      internalID: 6639422506594159466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_47
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 726
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80724604a1aa883499e48118d076a982
+      internalID: -7902405751618404635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_48
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 726
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d46a13f2b7f86874f92100db16a24369
+      internalID: 2378234748970763925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_49
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 726
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e058abb86bd22bf48aa55448c83547e0
+      internalID: 639159266036768016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_50
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 696
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be18eebfb17e6ce478b221aa4dc1b7e9
+      internalID: -4432092504917934263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_51
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 697
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b9a4b11f2258fc4f92df348d61908de
+      internalID: 5180819263583923573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_52
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 696
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02059c330b51b5b42a07486f160fd308
+      internalID: -398958876132251680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_53
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 696
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e8677dc27cd62447b960c76e107626f
+      internalID: 9086400525430266995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_54
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 666
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23619e3b2e663064aad9565a002acbe8
+      internalID: 4180656724177823469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_55
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 666
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63a9973cce3ed3647bffafc7b34e7acf
+      internalID: 5244035131383312833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_56
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 666
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccc1560429c1dd44bbabb65041415f4d
+      internalID: 1347999664706966682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_57
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 666
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56d542c285b41254599365d8aacb4d42
+      internalID: -4699056310083938432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_58
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 636
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fa3a83a92fed9f44bb64622c6937322
+      internalID: -6342298810776202901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_59
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 636
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fceab72458aa7e64ab50702c0ce9ca09
+      internalID: -773196700609876676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_60
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 636
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7294967e9af612b4d8bf403f667ce4f2
+      internalID: 553062843115316314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_61
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 636
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61d5314d9370f214493edf3993b638fe
+      internalID: -9021614688634627440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_62
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 594
+        width: 158
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac856014280f17043925f6eee1de0d21
+      internalID: 5263808267588002272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_63
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 606
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a393a95c1027f1b4485667e801978db7
+      internalID: 9220113102147839096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_64
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 606
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beef7d7250c0c2b469f97c0dbc4c299e
+      internalID: -8916115084413465677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_65
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 606
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa9619a91b79ca1499b882f99fe07909
+      internalID: 2786144462185751118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_66
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 606
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bead9a0de49f1ef40a7a9d3ac5bb166d
+      internalID: -5706607435378668303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_67
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 314
+        width: 240
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dec55e70bb5f42b468f8d354bf147b5b
+      internalID: -7020812410865040434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_68
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 576
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed6735aa7ca52da4f82d4380c6904b84
+      internalID: -4810797767471384880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_69
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 577
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6e8b5fc095236245b17ececef366c55
+      internalID: 8951338803689177968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_70
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 576
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae436f8af4d60f34184120884f904121
+      internalID: -3803087699132676439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_71
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 576
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a0503ead7d5ae242ab9ce837bcd927d
+      internalID: -9114906797780571537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_72
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 538
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 848d0b0995fea514691b8d2f22ed1189
+      internalID: 2845339516091597759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_73
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 538
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 157fe329d5304594ba9fabbfb7327b4f
+      internalID: -8456496727940007452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_74
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 538
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ca6d713e8bb34e4ab25b62281e01024
+      internalID: 2719345008722546831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_75
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 538
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef97b227ab376d14cb03afdac498f923
+      internalID: 1760397400816237978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_76
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 538
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e9c631f9929e5745a515a8dbf928398
+      internalID: -7849731035531683286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_77
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 538
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db05772485a319f4ba54960b3eb68a27
+      internalID: -2716378074235717596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_78
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 538
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85d67c8c5de3e374b973479a0955ce19
+      internalID: 5616038226238234997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_79
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 538
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c7883c73e8a08e4898b7ce4c6a9bd0c
+      internalID: 1258959896952960209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_80
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 538
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cb052074ee7f5d469d1c1f5b962d967
+      internalID: 7556087114182357289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_81
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 513
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb1f2994d3f73cc41a73af315b38336a
+      internalID: -3642464221503456727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_82
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 513
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db3b41fb1e52f764d8e2630fc9729fe0
+      internalID: 2048076448201152530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_83
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 513
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 522cf2aa2ecbda4449d8861ff0facd2e
+      internalID: 1854329643136373200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_84
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 513
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38b5d192e885db24984bfa21969d3cb7
+      internalID: 5729847176312638467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_85
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 513
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93a76c9fb4e45f54782836b9800d00a9
+      internalID: -1650674111819608215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_86
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 513
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 730d8d77b96045340b20fe5591fc2117
+      internalID: 7918800276164245186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_87
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 513
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4cac802e8e5df14da9f5711968b7c31
+      internalID: -6073400934897669818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_88
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 513
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c91517d487ec1f40b591c14800c9b8b
+      internalID: 451228898405189458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_89
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 513
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2685590623c76b4c8a41b85d2a6c72e
+      internalID: 510905418382590024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_90
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 488
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ddd535067858de43a7ba174bdfa4fcb
+      internalID: 2500668603144531135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_91
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 488
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28f2eb7f380eb084199cbd324839e096
+      internalID: 3326954240795155673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_92
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 488
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31bf7962b3f9d67458252d35d72cf49d
+      internalID: -2519164199575355198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_93
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 488
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df392fbdeea66a9478bd9121997d5265
+      internalID: 1056798547483462995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_94
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 488
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 786003ac199bcfc418c30b33162633b9
+      internalID: -6392948329705340894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_95
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 488
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3807890b90f47914eb76fdcca324ff94
+      internalID: -6805841288611905728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_96
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 488
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4264be652ece9b44ac3c96d6b960161
+      internalID: 8565002236745432786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_97
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 488
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1950b2aaf5ab3ec4db795f7a5f56581e
+      internalID: 8004094569431292641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_98
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 488
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59c06c1c2ea1b58498092e8f3ebc352a
+      internalID: 5340961194594041367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_99
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 463
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 258fabbf5e991b64ea3d39298e0f33f6
+      internalID: 9153604541310542370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_100
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 463
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9061e639fe2f0f24aa14f4da7754eb4f
+      internalID: -2304943141096825889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_101
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 463
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63d24bb239bb9f04095a03c31124bc3a
+      internalID: -8036419585410689965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_102
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 463
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28e70dcdad889c94b8b958c5e936191c
+      internalID: 5697228566787767911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_103
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 463
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aebc783913bfaa6488e8f452c27e52b2
+      internalID: 4154009391756944329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_104
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 463
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d57f419024690f418589c11773509a0
+      internalID: 2949898007766231600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_105
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 463
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e88ae0961219764e8a03541299d73ba
+      internalID: -3783817630876180725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_106
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 463
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61d7db6cf045df24dae22c73e3016b2f
+      internalID: 2027061276785641030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_107
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 463
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce6bd340182f3d8499f9f8eac36d7b64
+      internalID: -3702150914315084420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_108
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 406
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb9841a5bf49a9a4e9d0a46faa54e276
+      internalID: -2796755948303634507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_109
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 430
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38f24894cf759ea4f8a56a2a08687f70
+      internalID: 6540441289312918812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_110
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 438
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08ab63385de53f34bb0e15968588dd10
+      internalID: -2141218990795035032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_111
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 424
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fa59d4386eab294c9e22c96fa989e8d
+      internalID: 6101614438615873110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_112
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 406
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec7a21fd566261a4d911b808f9d5718a
+      internalID: 1022121956188834185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_113
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 408
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb19fe80d733873488ce6346b6a21725
+      internalID: -2244243648316084323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_114
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 428
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bf828742c34457469ad43593aba0823
+      internalID: 5595093326081978264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_115
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 408
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a440c20a73902ca4ca6fe068285133be
+      internalID: 1203519275441065034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_116
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 412
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9b9f643330e5c4489850bc6a2efeb1f
+      internalID: 5310174654461329683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_117
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 411
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeafeffb27da7ea4c80323e6b6ee9988
+      internalID: 4784029924776031997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_118
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 421
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b25b7f3df435f3b468a497e073b2777b
+      internalID: -6988491767936258103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_119
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 413
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d5432a33a52c3e48927f086003b8024
+      internalID: 8819132249506557596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_120
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 402
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c940048a31f8c9478ac51c157d3bd74
+      internalID: -6511585022776098555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_121
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 399
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a178de395a682240821b5f0b59943cf
+      internalID: 8310161439826806089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_122
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 407
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 464767fe5a621ee4387e15b961241eb2
+      internalID: -5695369840930933672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_123
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 402
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19a47c01a4142d04a915cba5993f852d
+      internalID: 4761181973865985499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_127
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 358
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffcc2443d55124a46a6efaf02e0fd7b5
+      internalID: 4082042267521387811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_128
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 382
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8de950b4deccb0a4e81c579afa8e2566
+      internalID: 3630333443385721612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_129
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 390
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de39689172e330745ab074a816841cab
+      internalID: -6350436104975442069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_130
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 377
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 335e44ce26d1bac408b8959ddaf81581
+      internalID: -7115423416530027073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_132
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 361
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54f96412ad9a7a14fad7f9deb13d87ab
+      internalID: 6848026970789748775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_133
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 380
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 037b42caf90a6c046ac6cd86cd91941a
+      internalID: -8329321735991644481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_134
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 361
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb5468b8f8a827c4e9da97a07bed5d5f
+      internalID: 4791273485985676436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_137
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 373
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31f26a5564dc9114391d368585164e7a
+      internalID: -7909727877328219615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_139
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 364
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80c669aa3b77b784a8939bb211854b4f
+      internalID: 21888076489384187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_140
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 363
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18af01769f8136a41bfe0482f52707fd
+      internalID: -1685941652304006264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_141
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 373
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6af923adf5acbf441a37fc90f99276ed
+      internalID: 6563238385952732614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_142
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 365
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c0d365cbf38625498ddf71661ccc321
+      internalID: 2465626516601927123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_145
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 359
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eab7a25f6c4aa5348b688892a64a133b
+      internalID: -1429787583185779976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_147
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 354
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1b46a96cd4606649b725f42b5a77e3c
+      internalID: 7503285664619575159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_148
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 352
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a0820d5da6a15a4e8e9ba8617fc666d
+      internalID: -2299270578980741910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_149
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 359
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d186acf06b5c83d4c9c19ee9bdb38753
+      internalID: -8399415623798026506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_150
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 351
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15718f3a9161f9d4280662ebfa60d3ad
+      internalID: -7680890820664860974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_151
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 310
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed94758c4e6513944b14468950bad4f7
+      internalID: 8564586313150237616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_152
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 334
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e789e8cdbd7930c41afef0d72c1a9f15
+      internalID: -6538715405150188322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_153
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 342
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f12e0bf81b387e49a3aa1a1cca51246
+      internalID: -6306934015048876866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_154
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 329
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49c0c86f171c59449b1a2a4b4494d1a2
+      internalID: 7317178806924902396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_155
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 311
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74e64b6b007fb3a45b32610700d444fc
+      internalID: -1289291037188354088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_156
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 334
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c36f24a24aa72de4eaa954af920d3660
+      internalID: 2448068756537155032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_157
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 342
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc93feccacbe60b4483dc1a4e16cedcd
+      internalID: -3292057327780186730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_158
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 329
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 002e8cacc78fe50459509d875dbe11ac
+      internalID: -1331150425723365604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_159
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 332
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac6974ed6fc4aa1448c416a923a758c7
+      internalID: 6614243022807366204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_160
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 313
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14cde537fcdd3eb448ff26f269b2b21c
+      internalID: 7901135957098731612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_161
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 332
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91590b061cd9fe648999cf73ab93e084
+      internalID: -8120344172169359437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_162
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 316
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcc24ea0c15cc274cbd4653faf450b5a
+      internalID: 4242951964096668574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_163
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 315
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50b98bb1b3c8697429debee9d4fbe9c5
+      internalID: -8118272566856987393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_164
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 325
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e361e5ea18a6cb4dba1ecb7e075f472
+      internalID: -8234854891728224332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_165
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 317
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2308749681072f64a9f3f0bdbb552d19
+      internalID: 2069074731557728105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_166
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 316
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b906b7acb0729b34ba8f906b2b1e98ef
+      internalID: 4165293669337249533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_167
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 315
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52b151f324e79f345ba3b501d1b83056
+      internalID: -3910990182163420938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_168
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 325
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 072a187b70da2364c98e90e6c8ef04c4
+      internalID: 8947314527256251718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_169
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 317
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 774f2ade99a016c4fb85f200408bcf3f
+      internalID: 7090977488385353355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_170
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 306
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47cdfb1d210e8f945922d72770538383
+      internalID: -6562030755489721116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_171
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 304
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 088e7a2bdffe0e4489f7b529a68c998b
+      internalID: -3928837654737797309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_172
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 311
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6479968bc044ec14f96cd5eed1b6152d
+      internalID: 6512158581568278774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_173
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 303
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6b4a8acbdb497b4fbf9c767edffd3d0
+      internalID: 8839912804648320445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_174
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 306
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5df23960340544f4d8cabc544c166696
+      internalID: -3045457670392840991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_175
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 304
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ec13f347a0654d45a9abed2ba1b3b90
+      internalID: 8386988997822532282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_176
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 312
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca63b61aa80659a42bf6ca977125d288
+      internalID: -2353793715853853832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_177
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 303
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77dffb4b7e551a240b19dad93ae6b8f1
+      internalID: 4551893125188374706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_178
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 262
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2b39f22902628345a5b9bdf1ec9c09d
+      internalID: -1994871222504828065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_179
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 285
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df20e9fb9508a3646a9697cb6bae74a3
+      internalID: 4543916981569668771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_180
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 293
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10be9b8cb84c86b4f9d1cd379bd89ebf
+      internalID: -8871960462313454889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_181
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 280
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25e92736336958946aa2699e282411ba
+      internalID: 6818574088810308031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_182
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 265
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f10ec4a4fe048214fa2cc49391ebb5ff
+      internalID: -5731295119592248657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_183
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 263
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48a6e43f45f4379498af294d2657644b
+      internalID: 5457451844315466762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_184
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 264
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 368d862770f7c6940a09ec9eff513d47
+      internalID: 1908434949390314364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_185
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 283
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92e228f2431b34744b018521ade8f7a8
+      internalID: 710974637320647961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_186
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 267
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7e42b8475c6455459a76484174f3582
+      internalID: 3466551279128492467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_187
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 266
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5a354a66652d5b40bf2239b623c7c38
+      internalID: -7850817158622045853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_188
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 276
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d25f544e2bfc4943b2f4341705e5b0c
+      internalID: -31739010533605519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_189
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 268
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5054271861a834243a68bc505b948a17
+      internalID: -3532235195800547825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_190
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 257
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25879af41a92edd4f9976d992406fbac
+      internalID: 8443161297784656525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_191
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 255
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e93a6c09e45bf64999cb73bc1c97ffd
+      internalID: 1197834697386823123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_192
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 263
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db664dc95cb00d846b89a2dc0df13d4f
+      internalID: -6024076632689510025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_193
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 257
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f72d7d5715d9b4548921340e862f7827
+      internalID: 3301844847219888263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_194
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 238
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61cf3e7418f4c184aa4185520f1de80c
+      internalID: -6119738081800197637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_195
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 246
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a62f5ed0256c9f449fd2e0675d4ae6f
+      internalID: 2092757476546956190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_196
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 232
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edf8f2dfb943a8a4eb3064da90870b9c
+      internalID: 3351900195332499903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_197
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 214
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97911760260fdb14c85856f28d1b0170
+      internalID: -7045329191081619861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_198
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 238
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e9971cb388ce6b46bcfdeefb1f5e313
+      internalID: -1845917441661371254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_199
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 246
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6593ac1eb0bdd4149b5d558b8c26e656
+      internalID: 4138394645880420273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_200
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 232
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c9346f499b11aa4d919da2a3d658a91
+      internalID: -1180448191332800523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_201
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 235
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adc4d70aac9d9c945b714bc5cb252573
+      internalID: 4408754668505444859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_202
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 216
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faa1962866a58b94ea1efbe846c5e6b6
+      internalID: 1450194962682606493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_203
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 235
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 684c11615c2cf224fb24a435d22cd1fa
+      internalID: -2894534862184173582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_204
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 220
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6205c24c236cc2246aa5bb6b353555ac
+      internalID: -1387576116237629356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_205
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 218
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b02483b6b3f04246a1a4348941bf84f
+      internalID: 336439613470596323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_206
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 229
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 027f241e4cdbd95459d693e95a2500a1
+      internalID: 6757177810671210158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_207
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 221
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87b3f36b3e48aff4aa40938c2258f4cd
+      internalID: -4343667656175966994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_208
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 220
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 655ff31192431af49b554274bfa9c545
+      internalID: 7559973530096776411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_209
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 218
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed07d5d4d888aa14a80d3627034a9a96
+      internalID: 3487339857239532655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_210
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 229
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cc1ff08c72520144800ac17d888694e
+      internalID: -2793654330026020427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_211
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 221
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ae112b7a1672b647bf0bd7fb061f807
+      internalID: -7756499463529504633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_212
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 209
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02cfeb9818f78a047aa0ea8ff8859236
+      internalID: -1415923876532264243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_213
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 207
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec6aef214c7124d448acdd59a3ca4b48
+      internalID: 5036535046566361707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_214
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 215
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 356d6023f796c2d44bc283f8cfea8243
+      internalID: -8968955615289588518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_215
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 209
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13c658386f268db4585c10caa93010b1
+      internalID: -9186367930796578021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_216
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 209
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c645b89d69e67f643b59a196fa285fda
+      internalID: -2854215038497739101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_217
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 207
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 380826b2b7145784abb3eb942a3d3068
+      internalID: -4644525620183000887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_218
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 215
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85d6cb21f343f2e49ac1afdb4533d182
+      internalID: -2252622987623487041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_219
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 209
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e226e37d3516143489ff0c8cab224083
+      internalID: -5434417805729169498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_220
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 112
+        width: 58
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd5ad6a670d72f34f8e4417a8c446974
+      internalID: -919360282191588047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_221
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 112
+        width: 52
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 594925f9d5a1e8a4cb1c4a59f5c03bbf
+      internalID: 4119293062707433517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_222
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 45
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ecd33d72bba81e41b46c1651137fe6d
+      internalID: -7490863875887128208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_223
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 45
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21415ec4a4f4bd844a864f28d028ca1b
+      internalID: 8447383262558955625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_224
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 1
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65ede350e9e01f44eb772e6c29a82018
+      internalID: 6423439935391509791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_225
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 1
+        width: 5
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d37854b31116742b7b10aaccd36cd3
+      internalID: 1475642232804503052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_226
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1
+        width: 48
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4250cd346dd57b4a890af8fab1d3206
+      internalID: -3298311723082570542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_227
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 0
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae335cbe9e18e824eb27a82156199d78
+      internalID: -7017641239863039269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_228
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 7
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6177366060dcd924ba9126fbb14896ff
+      internalID: -6515300872360681769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_229
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 0
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f58f93f3623334848a3eeb8200832d6b
+      internalID: 4260499633232298568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_230
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 1
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5c4ec4551c477c4980e490b3f9b543b
+      internalID: 1862118675480089806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_124
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 349
+        width: 53
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeb7da04b2e4224419773407acefccb3
+      internalID: -765158956599601777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_125
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 350
+        width: 54
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9487a8b5b8ab83418b53cc6c88eeebc
+      internalID: -3639976860863093954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_126
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 302
+        width: 51
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ec0e78de2716ca48b1fbb6698048ec4
+      internalID: 3671905160307592472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_131
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 398
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7fc74d2c8f4a0344ba6633bf8bca341
+      internalID: 1436078416971549304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_135
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 206
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 641065674804279498a4089973a71e9a
+      internalID: 225964767695263870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_136
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 112
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b963d9acb9ed35c41839de2f5b64abcb
+      internalID: 4022664346330955350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Super Puzzle Bobble - General Rips_138
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 45
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 101596fc6ae098949ad3de8b1e4c10f3
+      internalID: -3825114282641315030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 46e2b6861e043d94aacba4fc4d8db7a6
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

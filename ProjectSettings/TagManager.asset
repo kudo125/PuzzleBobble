@@ -3,7 +3,19 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Bubble
+  - Input
+  - Origin
+  - GameManager
+  - Placed
+  - Cannon
+  - Destroy
+  - Green
+  - Next
+  - Clear
+  - Audio
+  - GameOver
   layers:
   - Default
   - TransparentFX
