@@ -1,12 +1,7 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.SceneManagement;
+﻿using UnityEngine;
 
 public class SelectMode : MonoBehaviour
 {
-    const string gameScene = "GameScene";
-
     private AudioSource selectAudio = default;
 
     private bool once = default;
@@ -24,17 +19,6 @@ public class SelectMode : MonoBehaviour
             once = true;
 
             selectAudio.Play();
-
-            StartCoroutine(SceneChange());
         }
-    }
-
-    private IEnumerator SceneChange()
-    {
-        yield return new WaitForSeconds(1f);
-
-        SceneManager.LoadScene(gameScene);
-
-        yield break;
     }
 }

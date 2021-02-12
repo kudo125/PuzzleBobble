@@ -16,6 +16,7 @@ TagManager:
   - Clear
   - Audio
   - GameOver
+  - System
   layers:
   - Default
   - TransparentFX

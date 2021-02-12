@@ -63,26 +63,35 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Exit.cs" />
-    <Compile Include="Assets\Scripts\Game\ArrayManager.cs" />
-    <Compile Include="Assets\Scripts\Game\AudioController.cs" />
-    <Compile Include="Assets\Scripts\Game\BatteryRotation.cs" />
-    <Compile Include="Assets\Scripts\Game\BubbleBounds.cs" />
-    <Compile Include="Assets\Scripts\Game\BubbleConnect.cs" />
-    <Compile Include="Assets\Scripts\Game\BubbleDestroyEfect.cs" />
-    <Compile Include="Assets\Scripts\Game\BubblePlaced.cs" />
-    <Compile Include="Assets\Scripts\Game\BubblePosition.cs" />
-    <Compile Include="Assets\Scripts\Game\BubbleShot.cs" />
-    <Compile Include="Assets\Scripts\Game\BubbleValue.cs" />
-    <Compile Include="Assets\Scripts\Game\CalculationVariables.cs" />
-    <Compile Include="Assets\Scripts\Game\GameController.cs" />
-    <Compile Include="Assets\Scripts\Game\NextBubble.cs" />
-    <Compile Include="Assets\Scripts\Game\PcInput.cs" />
-    <Compile Include="Assets\Scripts\Game\StageSet.cs" />
+    <Compile Include="Assets\Resources\ResourcesPass\ResourcesPass.cs" />
+    <Compile Include="Assets\Scripts\Data\Array.cs" />
+    <Compile Include="Assets\Scripts\Data\Enums.cs" />
+    <Compile Include="Assets\Scripts\Data\Tags.cs" />
+    <Compile Include="Assets\Scripts\Game\Bubble\BubbleBounds.cs" />
+    <Compile Include="Assets\Scripts\Game\Bubble\BubbleConnect.cs" />
+    <Compile Include="Assets\Scripts\Game\Bubble\BubbleDestroyEfect.cs" />
+    <Compile Include="Assets\Scripts\Game\Bubble\BubblePlaced.cs" />
+    <Compile Include="Assets\Scripts\Game\Bubble\BubblePosition.cs" />
+    <Compile Include="Assets\Scripts\Game\Bubble\BubbleValue.cs" />
+    <Compile Include="Assets\Scripts\Game\Bubble\CalculationVariables.cs" />
+    <Compile Include="Assets\Scripts\Game\Bubble\NextBubble.cs" />
+    <Compile Include="Assets\Scripts\Game\Player\ArrowRotation.cs" />
+    <Compile Include="Assets\Scripts\Game\Player\BubbleShot.cs" />
+    <Compile Include="Assets\Scripts\Game\Player\PlayerController.cs" />
     <Compile Include="Assets\Scripts\Menu\GreenDragonMove.cs" />
     <Compile Include="Assets\Scripts\Menu\SelectMode.cs" />
-    <Compile Include="Assets\Scripts\Title\SceneMove.cs" />
-    <Compile Include="Assets\Scripts\Title\Window.cs" />
+    <Compile Include="Assets\Scripts\System\ArrayManager.cs" />
+    <Compile Include="Assets\Scripts\System\AudioController.cs" />
+    <Compile Include="Assets\Scripts\System\ConnectCheck.cs" />
+    <Compile Include="Assets\Scripts\System\Destroy.cs" />
+    <Compile Include="Assets\Scripts\System\Exit.cs" />
+    <Compile Include="Assets\Scripts\System\GameController.cs" />
+    <Compile Include="Assets\Scripts\System\HangingCheck.cs" />
+    <Compile Include="Assets\Scripts\System\KeyInput.cs" />
+    <Compile Include="Assets\Scripts\System\SceneGenerate.cs" />
+    <Compile Include="Assets\Scripts\System\SceneManager.cs" />
+    <Compile Include="Assets\Scripts\System\StageSet.cs" />
+    <Compile Include="Assets\Scripts\System\Window.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/kkudo/Desktop/パズルボブル_GIT/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
@@ -641,6 +650,12 @@
     <Reference Include="System.Xml.Serialization">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.7f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
     </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="UniRx.csproj">
+      <Project>{FE8DD125-B48A-62E0-8507-CF852A306567}</Project>
+      <Name>UniRx</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
