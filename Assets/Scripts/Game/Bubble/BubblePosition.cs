@@ -1,11 +1,7 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class BubblePosition : MonoBehaviour
 {
-    private GameObject gameManager = default;
-
     [SerializeField]
     private int bubbleArrayI = default;
 
@@ -14,33 +10,31 @@ public class BubblePosition : MonoBehaviour
 
     private BubbleValue bubbleValue = default;
 
-    private ArrayManager arrayManager = default;
-
-    private GameController gameController = default;
-
-    private void Start()
-    {
-        gameManager = GameObject.FindWithTag("GameManager");
-
-        bubbleValue = GetComponent<BubbleValue>();
-
-        arrayManager = gameManager.GetComponent<ArrayManager>();
-
-        gameController = gameManager.GetComponent<GameController>();
-    }
+    /// <summary>
+    /// 配列のゲームオーバーの境界位置
+    /// </summary>
+    private const int UPPER_LIMIT = 11;
 
     public void SetBubblePosition(int i,int j)
     {
+        bubbleValue = GetComponent<BubbleValue>();
+
         bubbleArrayI = i;
         bubbleArrayJ = j;
 
-        if (i > 11)
+        if (i > UPPER_LIMIT)
         {
-            gameController.GameEnd();
+            GameStatus.GameStatusReactivePropety.Value = GameStatusEnum.GameOver;
         }
         else
         {
-            arrayManager.SetValue(bubbleArrayI, bubbleArrayJ, bubbleValue.GetBubbleValue());
+            ArrayData.Array[i, j] = bubbleValue.GetBubbleValue();
+
+            //ゲームオブジェクト配列に格納
+            ArrayData.GameObjectsArray[i, j] = gameObject;
+
+            ArrayData.InstalledBubble[0] = i;
+            ArrayData.InstalledBubble[1] = j;
         }
     }
 

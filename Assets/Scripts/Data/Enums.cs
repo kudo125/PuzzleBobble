@@ -1,28 +1,48 @@
-﻿public class Enums
+﻿using UniRx;
+
+public enum GameStatusEnum
 {
-    public enum GameStatusEnum
-    {
-        None,
-        ShotReady,
-        ShotExecuted,
-        SetBubble,
-        Destroy,
-        GameOver,
-        Clear
-    }
+    None,
+    LoadedStage,
+    GameStart,
+    Idle,
+    ConnectionCheck,
+    Destroy,
+    Hanging,
+    GameOver,
+    Clear
+}
 
-    public enum SceneStatusEnum
-    {
-        Title,
-        Menu,
-        Game
-    }
+public enum SceneStatusEnum
+{
+    Title,
+    Menu,
+    Game
+}
 
-    public enum InputStateEnum
-    {
-        Right,
-        Left,
-        Shot,
-        Exit
-    }
+public enum PlayerStatusEnum
+{
+    None,
+    SetBubble,
+    ShotReady,
+    ShotExecuted
+
+}
+
+public class GameStatusReactiveProperty : ReactiveProperty<GameStatusEnum>
+{
+    public GameStatusReactiveProperty() { }
+    public GameStatusReactiveProperty(GameStatusEnum initialValue) : base(initialValue) { }
+}
+
+public class SceneStatusReactiveProperty : ReactiveProperty<SceneStatusEnum>
+{
+    public SceneStatusReactiveProperty() { }
+    public SceneStatusReactiveProperty(SceneStatusEnum initialValue) : base(initialValue) { }
+}
+
+public class PlayerStatusReactiveProperty : ReactiveProperty<PlayerStatusEnum>
+{
+    public PlayerStatusReactiveProperty() { }
+    public PlayerStatusReactiveProperty(PlayerStatusEnum initialValue) : base(initialValue) { }
 }

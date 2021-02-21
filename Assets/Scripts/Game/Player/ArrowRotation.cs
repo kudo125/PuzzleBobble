@@ -6,18 +6,10 @@ public class ArrowRotation : MonoBehaviour
 {
     private Transform batteryTransform = default;
 
-    private GameObject inputObj=default;
-
-    private KeyInput keyInput = default;
-
-    private bool rotationReady = default;
-
     private float angle = default;
 
     private void Start()
     {
-        inputObj = GameObject.FindWithTag("Input");
-        keyInput = inputObj.GetComponent<KeyInput>();
         batteryTransform = GetComponent<Transform>();
     }
 

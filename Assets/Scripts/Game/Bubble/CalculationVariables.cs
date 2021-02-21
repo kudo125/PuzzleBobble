@@ -11,7 +11,7 @@ public class CalculationVariables : MonoBehaviour
 
     private void Awake()
     {
-        arrayOrigin = GameObject.FindWithTag("Origin");
+        arrayOrigin = GameObject.FindWithTag(Tags.ORIGIN);
 
         //バブルの横方向の移動距離を計算
         _xMove= arrayOrigin.GetComponent<Transform>().localScale.x;

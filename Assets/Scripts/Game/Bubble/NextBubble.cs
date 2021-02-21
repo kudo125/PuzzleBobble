@@ -2,38 +2,27 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NextBubble : MonoBehaviour
+public class NextBubble : SingletonMonoBehaviour<NextBubble>
 {
-    const string pass = "Prefabs/";
+    private int[,] array = default;
 
-    const string redPass = "BubbleRed";
-
-    const string bluePass = "BubbleBlue";
-
-    const string greenPass = "BubbleGreen";
-
-    const string purplePass = "BubblePurple";
-
-    const string yellowPass = "BubbleYellow";
-
-    private GameObject bubblePrfb;
+    private GameObject bubblePrfb = default;
 
     private Transform nextTransform = default;
 
-    private GameObject cannon = default;
-
     private GameObject NextBubbleObj=default;
 
-    private BubbleShot bubbleShot = default;
-
-    private void Awake()
+    override protected void Awake()
     {
         nextTransform = GameObject.FindWithTag("Next").GetComponent<Transform>();
 
-        cannon = GameObject.FindWithTag("Cannon");
-        bubbleShot = cannon.GetComponent<BubbleShot>();
+        array = ArrayData.Array;
     }
 
+    /// <summary>
+    /// ステージ上にあるバブルの中からランダムで生成
+    /// </summary>
+    /// <returns></returns>
     private GameObject LoadBubble()
     {
         bool red = default;
@@ -42,34 +31,33 @@ public class NextBubble : MonoBehaviour
         bool purple = default;
         bool yellow = default;
 
-        GameObject[] bubbleObjs = GameObject.FindGameObjectsWithTag("Placed");
-
-        for(int i = 0; i<bubbleObjs.GetLength(0); i++)
+        for (int i = 0; i < array.GetLength(0); i++) 
         {
+            for(int j = 0; j < array.GetLength(1); j++)
+            {
+                int bubbleValue = array[i, j];
 
-            int bubbleValue = bubbleObjs[i].GetComponent<BubbleValue>().GetBubbleValue();
-
-            if (bubbleValue == 1)
-            {
-                red = true;
+                if (bubbleValue == 1)
+                {
+                    red = true;
+                }
+                else if (bubbleValue == 2)
+                {
+                    blue = true;
+                }
+                else if (bubbleValue == 3)
+                {
+                    yellow = true;
+                }
+                else if (bubbleValue == 4)
+                {
+                    green = true;
+                }
+                else if (bubbleValue == 5)
+                {
+                    purple = true;
+                }
             }
-            else if (bubbleValue == 2)
-            {
-                blue = true;
-            }
-            else if (bubbleValue == 3)
-            {
-                green = true;
-            }
-            else if (bubbleValue == 4)
-            {
-                purple = true;
-            }
-            else if (bubbleValue == 5)
-            {
-                yellow = true;
-            }
-             
         }
 
         string[] NextBubbles = new string[5];
@@ -79,47 +67,61 @@ public class NextBubble : MonoBehaviour
             NextBubbles[i] = "none";
         }
 
-        if (red==true)
+        if (red)
         {
-            NextBubbles[0] = redPass;
+            NextBubbles[0] = Pass.RED_BUBBLE_NAME;
         }
-        if (blue == true)
+        if (blue)
         {
-            NextBubbles[1] = bluePass;
+            NextBubbles[1] = Pass.BLUE_BUBBLE_NAME;
         }
-        if (green == true)
+        if (yellow)
         {
-            NextBubbles[2] = greenPass;
+            NextBubbles[2] = Pass.YELLOW_BUBBLE_NAME;
         }
-        if (purple == true)
+        if (green)
         {
-            NextBubbles[3] = purplePass;
+            NextBubbles[3] = Pass.GREEN_BUBBLE_NAME;
         }
-        if (yellow == true)
+        if (purple)
         {
-            NextBubbles[4] = yellowPass;
+            NextBubbles[4] = Pass.PURPLE_BUBBLE_NAME;
+        }
+
+        //NextBubblesが空かどうか
+        int isNull = default;
+
+        for(int i = 0; i < NextBubbles.Length; i++)
+        {
+            if (NextBubbles[i] == null)
+            {
+                isNull++;
+            }
         }
 
         string bubblePass = NextBubbles[Random.Range(0, 5)];
 
-        while (bubblePass == "none")
+        if (isNull < 5)
         {
-            bubblePass = NextBubbles[Random.Range(0, 5)];
+            for (int i = 0; bubblePass == "none"; i++)
+            {
+                bubblePass = NextBubbles[Random.Range(0, 5)];
+            }
         }
-
-        bubblePrfb = (GameObject)Resources.Load(pass + bubblePass);
-
+        
+        bubblePrfb = (GameObject)Resources.Load(Pass.PREFAB + "/" + bubblePass);
+        
         return bubblePrfb;
     }
 
     public void NextBubbleSet()
     {
-        NextBubbleObj = (GameObject)Instantiate(LoadBubble(), nextTransform.position, Quaternion.identity); 
+        NextBubbleObj = Instantiate(LoadBubble(), nextTransform.position, Quaternion.identity); 
     }
 
     public void SetShotBubble()
     {
-        bubbleShot.SetPrefab(NextBubbleObj);
+        BubbleShot.Instance.SetPrefab(NextBubbleObj);
         Destroy(NextBubbleObj);
         NextBubbleSet();
     }

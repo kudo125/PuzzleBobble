@@ -12,15 +12,11 @@ public class BubbleDestroyEfect : MonoBehaviour
 
     private Rigidbody bubbleRig = default;
 
-    private void Start()
-    {
-        bubbleAnim = GetComponent<Animator>();
-
-        bubbleRig = GetComponent<Rigidbody>();
-    }
-
     public void DestroyEfect()
     {
+
+        bubbleAnim = GetComponent<Animator>();
+
         bubbleAnim.SetTrigger(animTrigger);
 
         StartCoroutine(DestroyObj());
@@ -28,6 +24,8 @@ public class BubbleDestroyEfect : MonoBehaviour
 
     public void Drop()
     {
+        bubbleRig = GetComponent<Rigidbody>();
+
         bubbleRig.constraints = RigidbodyConstraints.FreezeRotation;
         bubbleRig.useGravity = true;
 

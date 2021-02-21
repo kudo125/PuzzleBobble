@@ -22,6 +22,11 @@ public class BubbleConnect : MonoBehaviour
 
     private bool bubbleCollisionReady = default;
 
+    /// <summary>
+    /// 当たった先のオブジェクトの列が偶数（0）か奇数（1）
+    /// </summary>
+    private int EvenOdd = default;
+
     private void Start()
     {
         gameManager = GameObject.FindWithTag(gameManagerTag);
@@ -50,11 +55,10 @@ public class BubbleConnect : MonoBehaviour
         int colBubblePositionJ = colBubblePosition.GetBubblePositionJ();
 
         
-        int EvenOdd = default;
 
         int FrontBack = default;
 
-        print(colBubblePositionI % 2);
+
 
         //当たった先のオブジェクトの横の配列位置が奇数の時
         if (colBubblePositionI % 2 != 0)
@@ -111,26 +115,21 @@ public class BubbleConnect : MonoBehaviour
 
             //その値を見てくっつく場所を制御する
             //くっついたバブルの配列位置をこの下で決める
-
             if (upperLeft == minDistance)
             {
                 if (EvenOdd == 0)
                 {
-                    print(1);
                     transform.position = upperLeftVec;
                     bubblePosition.SetBubblePosition(colBubblePositionI-1, colBubblePositionJ);
                 }
-                
 
                 if (EvenOdd == 1 && FrontBack == 0 || EvenOdd == 1 && FrontBack == 1)
                 {
-                    print(2);
                     transform.position = upperLeftVec;
                     bubblePosition.SetBubblePosition(colBubblePositionI-1, colBubblePositionJ - 1);
                 }
                 else if (EvenOdd == 1 && FrontBack == 2)
                 {
-                    print(3);
                     transform.position = upperRightVec;
                     bubblePosition.SetBubblePosition(colBubblePositionI-1, colBubblePositionJ);
                 }
@@ -139,7 +138,6 @@ public class BubbleConnect : MonoBehaviour
             {
                 if (EvenOdd == 0)
                 {
-                    print(4);
                     transform.position = upperRightVec;
                     bubblePosition.SetBubblePosition(colBubblePositionI - 1, colBubblePositionJ + 1);
                 }
@@ -147,38 +145,27 @@ public class BubbleConnect : MonoBehaviour
 
                 if (EvenOdd == 1 && FrontBack == 0 || EvenOdd == 1 && FrontBack == 2)
                 {
-                    print(5);
                     transform.position = upperRightVec;
                     bubblePosition.SetBubblePosition(colBubblePositionI - 1, colBubblePositionJ + 1);
                 }
                 else if (EvenOdd == 1 && FrontBack == 1)
                 {
-                    print(6);
                     transform.position = upperLeftVec;
                     bubblePosition.SetBubblePosition(colBubblePositionI-1, colBubblePositionJ);
                 }
             }
             else if (left == minDistance)
             {
-                if (FrontBack == 2)
-                {
-                    Debug.Log("やばい");
-                }
-                else
+                if (FrontBack != 2)
                 {
                     transform.position = leftVec;
-                    bubblePosition.SetBubblePosition(colBubblePositionI, colBubblePositionJ-1);
+                    bubblePosition.SetBubblePosition(colBubblePositionI, colBubblePositionJ - 1);
                 }
             }
             else if (right == minDistance)
             {
-                if (FrontBack == 1)
+                if (FrontBack != 1)
                 {
-                    Debug.Log("やばい");
-                }
-                else
-                {
-                    print(200);
                     transform.position = rightVec;
                     bubblePosition.SetBubblePosition(colBubblePositionI, colBubblePositionJ + 1);
                 }
@@ -187,7 +174,6 @@ public class BubbleConnect : MonoBehaviour
             {
                 if (EvenOdd == 0)
                 {
-                    print(7);
                     transform.position = LowerLeftVec;
                     bubblePosition.SetBubblePosition(colBubblePositionI+1, colBubblePositionJ);
                 }
@@ -195,13 +181,11 @@ public class BubbleConnect : MonoBehaviour
 
                 if (EvenOdd == 1 && FrontBack == 0 || EvenOdd == 1 && FrontBack == 1)
                 {
-                    print(8);
                     transform.position = LowerLeftVec;
                     bubblePosition.SetBubblePosition(colBubblePositionI + 1, colBubblePositionJ - 1);
                 }
                 else if (EvenOdd == 1 && FrontBack == 2)
                 {
-                    print(9);
                     transform.position = LowerRightVec;
                     bubblePosition.SetBubblePosition(colBubblePositionI+1, colBubblePositionJ );
                 }
@@ -210,7 +194,6 @@ public class BubbleConnect : MonoBehaviour
             {
                 if (EvenOdd == 0)
                 {
-                    print(10);
                     transform.position = LowerRightVec;
                     bubblePosition.SetBubblePosition(colBubblePositionI+1, colBubblePositionJ + 1);
                 }
@@ -218,28 +201,23 @@ public class BubbleConnect : MonoBehaviour
 
                 if (EvenOdd == 1 && FrontBack == 0 || EvenOdd == 1 && FrontBack == 2)
                 {
-                    print(11);
                     transform.position = LowerRightVec;
                     bubblePosition.SetBubblePosition(colBubblePositionI+1, colBubblePositionJ);
                 }
                 else if (EvenOdd == 1 && FrontBack == 1)
                 {
-                    print(12);
                     transform.position = LowerLeftVec;
                     bubblePosition.SetBubblePosition(colBubblePositionI+1, colBubblePositionJ - 1);
                 }
             }
+            GameStatus.GameStatusReactivePropety.Value = GameStatusEnum.ConnectionCheck;
         }
 
     }
 
     private float AdjacentSellPosition(Vector3 adjacentSellPosition)
     {
-        float distance = default;
-
-        distance = Vector3.Distance(this.transform.position, adjacentSellPosition);
-
-        return distance;
+        return Vector3.Distance(this.transform.position, adjacentSellPosition);
     }
 
 }

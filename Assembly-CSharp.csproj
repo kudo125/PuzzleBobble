@@ -64,9 +64,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Resources\ResourcesPass\ResourcesPass.cs" />
-    <Compile Include="Assets\Scripts\Data\Array.cs" />
+    <Compile Include="Assets\Scripts\Animation\GreenDragonAnim.cs" />
+    <Compile Include="Assets\Scripts\Data\ArrayData.cs" />
+    <Compile Include="Assets\Scripts\Data\ArrayManipulation.cs" />
     <Compile Include="Assets\Scripts\Data\Enums.cs" />
+    <Compile Include="Assets\Scripts\Data\Pass.cs" />
+    <Compile Include="Assets\Scripts\Data\StageData.cs" />
     <Compile Include="Assets\Scripts\Data\Tags.cs" />
+    <Compile Include="Assets\Scripts\Debug.cs" />
     <Compile Include="Assets\Scripts\Game\Bubble\BubbleBounds.cs" />
     <Compile Include="Assets\Scripts\Game\Bubble\BubbleConnect.cs" />
     <Compile Include="Assets\Scripts\Game\Bubble\BubbleDestroyEfect.cs" />
@@ -76,22 +81,30 @@
     <Compile Include="Assets\Scripts\Game\Bubble\CalculationVariables.cs" />
     <Compile Include="Assets\Scripts\Game\Bubble\NextBubble.cs" />
     <Compile Include="Assets\Scripts\Game\Player\ArrowRotation.cs" />
+    <Compile Include="Assets\Scripts\Game\Player\BubbleReload.cs" />
     <Compile Include="Assets\Scripts\Game\Player\BubbleShot.cs" />
     <Compile Include="Assets\Scripts\Game\Player\PlayerController.cs" />
-    <Compile Include="Assets\Scripts\Menu\GreenDragonMove.cs" />
-    <Compile Include="Assets\Scripts\Menu\SelectMode.cs" />
-    <Compile Include="Assets\Scripts\System\ArrayManager.cs" />
-    <Compile Include="Assets\Scripts\System\AudioController.cs" />
-    <Compile Include="Assets\Scripts\System\ConnectCheck.cs" />
-    <Compile Include="Assets\Scripts\System\Destroy.cs" />
-    <Compile Include="Assets\Scripts\System\Exit.cs" />
-    <Compile Include="Assets\Scripts\System\GameController.cs" />
-    <Compile Include="Assets\Scripts\System\HangingCheck.cs" />
-    <Compile Include="Assets\Scripts\System\KeyInput.cs" />
-    <Compile Include="Assets\Scripts\System\SceneGenerate.cs" />
-    <Compile Include="Assets\Scripts\System\SceneManager.cs" />
-    <Compile Include="Assets\Scripts\System\StageSet.cs" />
-    <Compile Include="Assets\Scripts\System\Window.cs" />
+    <Compile Include="Assets\Scripts\Singleton\SingletonMonoBehaviour.cs" />
+    <Compile Include="Assets\Scripts\System\Game\AudioController.cs" />
+    <Compile Include="Assets\Scripts\System\Game\Exit.cs" />
+    <Compile Include="Assets\Scripts\System\Game\GameStatus.cs" />
+    <Compile Include="Assets\Scripts\System\Game\KeyInput.cs" />
+    <Compile Include="Assets\Scripts\System\Game\SceneGenerate.cs" />
+    <Compile Include="Assets\Scripts\System\Game\SceneManager.cs" />
+    <Compile Include="Assets\Scripts\System\Game\Window.cs" />
+    <Compile Include="Assets\Scripts\System\InGame\ArrayManager.cs" />
+    <Compile Include="Assets\Scripts\System\InGame\ConnectionCheck.cs" />
+    <Compile Include="Assets\Scripts\System\InGame\DestroyObjects.cs" />
+    <Compile Include="Assets\Scripts\System\InGame\GameManager.cs" />
+    <Compile Include="Assets\Scripts\System\InGame\HangingCheck.cs" />
+    <Compile Include="Assets\Scripts\System\InGame\Initialize.cs" />
+    <Compile Include="Assets\Scripts\System\InGame\LoadCsv.cs" />
+    <Compile Include="Assets\Scripts\System\InGame\StageCreate.cs" />
+    <Compile Include="Assets\Scripts\System\InGame\StageManager.cs" />
+    <Compile Include="Assets\Scripts\System\InGame\Undo.cs" />
+    <Compile Include="Assets\Scripts\System\MenuController.cs" />
+    <Compile Include="Assets\Scripts\System\ModeSelect.cs" />
+    <Compile Include="Assets\Scripts\System\TitleController.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/kkudo/Desktop/パズルボブル_GIT/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>

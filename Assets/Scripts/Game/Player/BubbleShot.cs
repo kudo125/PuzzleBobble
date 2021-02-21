@@ -2,38 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BubbleShot : MonoBehaviour
+public class BubbleShot : SingletonMonoBehaviour<BubbleShot>
 {
-    private GameObject gameManager = default;
-
     private GameObject audioController = default;
-
-    private GameController gameController = default;
 
     private GameObject bubblePrfb = default;
 
     private Rigidbody bubbleRig = default;
 
-    private bool ShotReady = default;
-
-    const float bubbleSpeed = 350f;
-
-    const string gameManagerTag = "GameManager";
-
-    const string inputTag = "Input";
-
-    const string audioTag = "Audio";
+    private const float bubbleSpeed = 350f;
 
     private void Start()
     {
-        gameManager = GameObject.FindWithTag(gameManagerTag);
-
-        audioController = GameObject.FindWithTag(audioTag);
-
-        gameController = gameManager.GetComponent<GameController>();
-
-        ShotReadyOn();
-
+        audioController = GameObject.FindWithTag(Tags.AUDIO);
     }
 
     public void SetPrefab(GameObject bubble)
@@ -54,11 +35,7 @@ public class BubbleShot : MonoBehaviour
         bubbleRig.AddForce(shotVector*bubbleSpeed);
 
         audioController.GetComponent<AudioController>().shotSEPlay();
-        gameController.ShotEnd();
-    }
 
-    public void ShotReadyOn()
-    {
-        ShotReady = true;
+        GameStatus.PlayerStatusReactiveProperty.Value = PlayerStatusEnum.SetBubble;
     }
 }
