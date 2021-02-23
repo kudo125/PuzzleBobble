@@ -216,6 +216,7 @@ GameObject:
   - component: {fileID: 1252068248}
   - component: {fileID: 1252068251}
   - component: {fileID: 1252068254}
+  - component: {fileID: 1252068252}
   m_Layer: 0
   m_Name: System
   m_TagString: System
@@ -271,6 +272,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2ef34a32fc233ac4997ebe7a7a1454fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1252068252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1252068247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8e2d8de0a0d386428e5afc1c65b65c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1252068254
@@ -357,11 +370,11 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: d5ea1dd8ce9544642abcf5fe91ad915d, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 915ed7dab7bf61f46becf7c890aeb0a1, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.45
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0

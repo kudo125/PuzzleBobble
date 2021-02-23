@@ -2,49 +2,37 @@
 
 public class BubblePosition : MonoBehaviour
 {
-    [SerializeField]
-    private int bubbleArrayI = default;
+    private int _bubbleArrayI = default;
 
-    [SerializeField]
-    private int bubbleArrayJ = default;
+    private int _bubbleArrayJ = default;
 
-    private BubbleValue bubbleValue = default;
+    private BubbleValue _bubbleValue = default;
 
-    /// <summary>
-    /// 配列のゲームオーバーの境界位置
-    /// </summary>
-    private const int UPPER_LIMIT = 11;
-
-    public void SetBubblePosition(int i,int j)
+    public void SetBubblePosition(int i, int j)
     {
-        bubbleValue = GetComponent<BubbleValue>();
+        _bubbleValue = GetComponent<BubbleValue>();
 
-        bubbleArrayI = i;
-        bubbleArrayJ = j;
+        _bubbleArrayI = i;
+        _bubbleArrayJ = j;
 
-        if (i > UPPER_LIMIT)
-        {
-            GameStatus.GameStatusReactivePropety.Value = GameStatusEnum.GameOver;
-        }
-        else
-        {
-            ArrayData.Array[i, j] = bubbleValue.GetBubbleValue();
+        ArrayData.Array[i, j] = _bubbleValue.GetBubbleValue();
 
-            //ゲームオブジェクト配列に格納
-            ArrayData.GameObjectsArray[i, j] = gameObject;
+        //ゲームオブジェクト配列に格納
+        ArrayData.GameObjectsArray[i, j] = gameObject;
 
-            ArrayData.InstalledBubble[0] = i;
-            ArrayData.InstalledBubble[1] = j;
-        }
+        ArrayData.InstalledBubble[0] = i;
+        ArrayData.InstalledBubble[1] = j;
+
+
     }
 
     public int GetBubblePositionI()
     {
-        return bubbleArrayI;
+        return _bubbleArrayI;
     }
 
     public int GetBubblePositionJ()
     {
-        return bubbleArrayJ;
+        return _bubbleArrayJ;
     }
 }

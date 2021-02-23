@@ -1,59 +1,85 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class AudioController : SingletonMonoBehaviour<AudioController>
 {
-    private new AudioSource[] audio = default;
+    private AudioSource[] _audio = default;
 
-    private AudioClip shotSE = default;
+    private AudioClip _shotSe = default;
 
-    private AudioClip destroySE = default;
+    private AudioClip _destroySe = default;
 
-    private AudioClip clearSE = default;
+    private AudioClip _clearSe = default;
 
-    const string pass = "Audio/";
+    private AudioClip _gameOverSe = default;
 
-    const string shotPass="shotSE";
+    private AudioClip _clickSe = default;
 
-    const string destroyPass = "destroySE";
+    private AudioClip _gameBgm = default;
 
-    const string clearPass = "clearSE";
+    private AudioClip _op = default;
 
     private void Start()
     {
-        audio = GetComponents<AudioSource>();
+        _audio = GetComponents<AudioSource>();
 
-        shotSE= (AudioClip)Resources.Load(pass + shotPass);
+        _shotSe= (AudioClip)Resources.Load(Pass.AUDIO +"/"+ Pass.SHOT_PASS);
 
-        destroySE= (AudioClip)Resources.Load(pass + destroyPass);
+        _destroySe= (AudioClip)Resources.Load(Pass.AUDIO + "/" + Pass.DESTROY_PASS);
 
-        clearSE= (AudioClip)Resources.Load(pass + clearPass);
+        _clearSe= (AudioClip)Resources.Load(Pass.AUDIO + "/" + Pass.CLEAR_PASS);
 
+        _gameOverSe = (AudioClip)Resources.Load(Pass.AUDIO + "/" + Pass.GAMEOVER_PASS);
+
+        _clickSe=(AudioClip)Resources.Load(Pass.AUDIO + "/" + Pass.CLICK_PASS);
+
+        _gameBgm= (AudioClip)Resources.Load(Pass.AUDIO + "/" + Pass.GAME_BGM_PASS);
+
+        _op= (AudioClip)Resources.Load(Pass.AUDIO + "/" + Pass.OP);
     }
 
-    public void shotSEPlay()
+    public void BgmPlay()
     {
-        audio[1].clip = shotSE;
-        audio[1].Play();
+        _audio[0].clip = _gameBgm;
+        _audio[0].loop = true;
+        _audio[0].Play();
     }
-
-    public void destroySEPlay()
+    public void OpPlay()
     {
-        audio[1].clip = destroySE;
-        audio[1].Play();
+        _audio[0].clip = _op;
+        _audio[0].loop = false;
+        _audio[0].Play();
     }
 
-    public void ClearSE()
+    public void ShotSePlay()
     {
-        audio[0].Stop();
-        audio[1].clip = clearSE;
-        audio[1].Play();
+        _audio[1].clip = _shotSe;
+        _audio[1].Play();
     }
 
-    public void GameOverSE()
+    public void DestroySePlay()
     {
-       
+        _audio[1].clip = _destroySe;
+        _audio[1].Play();
     }
 
+    public void ClearSePlay()
+    {
+        _audio[0].Stop();
+        _audio[1].clip = _clearSe;
+        _audio[1].Play();
+    }
+
+    public void GameOverSePlay()
+    {
+        _audio[0].Stop();
+        _audio[1].clip = _gameOverSe;
+        _audio[1].Play();
+    }
+
+    public void ClickSePlay()
+    {
+        _audio[0].Stop();
+        _audio[1].clip = _clickSe;
+        _audio[1].Play();
+    }
 }

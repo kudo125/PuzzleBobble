@@ -1,19 +1,17 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class GreenDragonAnim : SingletonMonoBehaviour<GreenDragonAnim>
 {
-    private Animator greenDragonAnim = default;
+    private Animator _greenDragonAnim = default;
 
-    private const string greenDragonAnimationTrigger = "move";
+    private const string GREEN_DRAGON_ANIM_TRIGGER = "move";
 
     private void Start()
     {
-        greenDragonAnim = GameObject.FindWithTag(Tags.GREEN_DRAGON).GetComponent<Animator>();
+        _greenDragonAnim = GameObject.FindWithTag(Tags.GREEN_DRAGON).GetComponent<Animator>();
     }
     public void ReloadAnim()
     {
-        greenDragonAnim.SetTrigger(greenDragonAnimationTrigger);
+        _greenDragonAnim.SetTrigger(GREEN_DRAGON_ANIM_TRIGGER);
     }
 }

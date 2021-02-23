@@ -19,6 +19,7 @@ GameObject:
   - component: {fileID: 3300290939530820944}
   - component: {fileID: 1772281405006838290}
   - component: {fileID: 8775367666165355225}
+  - component: {fileID: 6760047188538086341}
   m_Layer: 0
   m_Name: BubblePurple
   m_TagString: Bubble
@@ -163,8 +164,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3c4dafdb0e96ec41824e8fc5a41f7a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bubbleArrayI: 0
-  bubbleArrayJ: 0
 --- !u!114 &1772281405006838290
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -190,6 +189,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0931479add53e24eb790ae0fc08a79f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &6760047188538086341
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1345109782475183386}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 82986c5bf54d2614b97f86a9eba61532, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &3607810211415239003
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,29 +1,27 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class ArrowRotation : MonoBehaviour
 {
-    private Transform batteryTransform = default;
+    private Transform _batteryTransform = default;
 
-    private float angle = default;
+    private float _angle = default;
 
     private void Start()
     {
-        batteryTransform = GetComponent<Transform>();
+        _batteryTransform = GetComponent<Transform>();
     }
 
     public void Rotation(float horizontal)
     {
-        if (horizontal < 0 && angle < 60f)
+        if (horizontal < 0 && _angle < 60f)
         {
-            angle += 2f;
-            batteryTransform.rotation = Quaternion.Euler(0, 0, batteryTransform.rotation.z + angle);
+            _angle += 2f;
+            _batteryTransform.rotation = Quaternion.Euler(0, 0, _batteryTransform.rotation.z + _angle);
         }
-        else if (horizontal > 0 && angle > -60f)
+        else if (horizontal > 0 && _angle > -60f)
         {
-            angle -= 2f;
-            batteryTransform.rotation = Quaternion.Euler(0, 0, batteryTransform.rotation.z + angle);
+            _angle -= 2f;
+            _batteryTransform.rotation = Quaternion.Euler(0, 0, _batteryTransform.rotation.z + _angle);
         }
     }
 }

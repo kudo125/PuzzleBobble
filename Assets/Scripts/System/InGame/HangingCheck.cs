@@ -1,18 +1,17 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
+﻿/// <summary>
+///ぶら下がり判定クラス 
+/// </summary>
 public class HangingCheck : SingletonMonoBehaviour<HangingCheck>
 {
     /// <summary>
     /// 代入用配列
     /// </summary>
-    private int[,] array = new int[13, 10];
+    private int[,] _array = new int[13, 10];
 
     /// <summary>
     /// 隣接しているかどうか判定用
     /// </summary>
-    private bool adjacent = default;
+    private bool _adjacent = default;
 
     /// <summary>
     /// 対象オブジェクトを探す
@@ -23,18 +22,16 @@ public class HangingCheck : SingletonMonoBehaviour<HangingCheck>
         {
             for(int j = 0; j < ArrayData.Array.GetLength(1); j++)
             {
-                array[i, j] = ArrayData.Array[i, j];
+                _array[i, j] = ArrayData.Array[i, j];
             }
         }
 
-        Debug.DebagArray(ArrayData.Array);
-
         //盤面上の上から2番目のバブルから順に確認
-        for (int j = 1; j < array.GetLength(1) - 1; j++)
+        for (int j = 1; j < _array.GetLength(1) - 1; j++)
         {
-            if (array[1, j] > 0)
+            if (_array[1, j] > 0)
             {
-                array[1, j] = ArrayManipulation.DES_VALUE;
+                _array[1, j] = ArrayManipulation.DES_VALUE;
                 HangingCheckUp();
 
             }
@@ -44,7 +41,7 @@ public class HangingCheck : SingletonMonoBehaviour<HangingCheck>
         CallNotAdjacentDestroy();
 
         //すべて終わったらゲームステータス変更
-        GameStatus.GameStatusReactivePropety.Value = GameStatusEnum.Idle;
+        GameStatus.GameStatusReactivePropety.Value = GameStatusEnum.ArrayCheck;
     }
 
     /// <summary>
@@ -52,14 +49,14 @@ public class HangingCheck : SingletonMonoBehaviour<HangingCheck>
     /// </summary>
     private void HangingCheckUp()
     {
-        for (int i = 2; i<array.GetLength(0)-1; i++)
+        for (int i = 2; i<_array.GetLength(0)-1; i++)
         {
-            for(int j = 1; j < array.GetLength(1)-1; j++)
+            for(int j = 1; j < _array.GetLength(1)-1; j++)
             {
-                adjacent = default;
+                _adjacent = default;
 
                 //偶数の時
-                if (i % 2 == 0 && array[i, j] > 0)
+                if (i % 2 == 0 && _array[i, j] > 0)
                 {
                     //左上を見る
                     Check(i - 1, j);
@@ -75,7 +72,7 @@ public class HangingCheck : SingletonMonoBehaviour<HangingCheck>
                     Check(i + 1, j + 1);
                 }
                 //奇数の時
-                else if(array[i, j] > 0)
+                else if(_array[i, j] > 0)
                 {
                     //左上を見る
                     Check(i - 1, j - 1);
@@ -90,10 +87,10 @@ public class HangingCheck : SingletonMonoBehaviour<HangingCheck>
                     //右下を見る
                     Check(i + 1, j);
                 }
-                if (adjacent)
+                if (_adjacent)
                 {
                     //定数に置き換え
-                    array[i, j] = ArrayManipulation.DES_VALUE;
+                    _array[i, j] = ArrayManipulation.DES_VALUE;
                 }
             }
         }
@@ -106,9 +103,9 @@ public class HangingCheck : SingletonMonoBehaviour<HangingCheck>
     private void Check(int nextToI, int nextToJ)
     {
         //隣接バブルがある場合
-        if (ArrayManipulation.DES_VALUE==array[nextToI, nextToJ])
+        if (ArrayManipulation.DES_VALUE==_array[nextToI, nextToJ])
         {
-            adjacent = true;
+            _adjacent = true;
         }
     }
 
@@ -117,12 +114,11 @@ public class HangingCheck : SingletonMonoBehaviour<HangingCheck>
     /// </summary>
     private void CallNotAdjacentDestroy()
     {
-        Debug.DebagArray(array);
-        for(int i = 0; i < array.GetLength(0); i++)
+        for(int i = 0; i < _array.GetLength(0); i++)
         {
-            for(int j = 0; j < array.GetLength(1); j++)
+            for(int j = 0; j < _array.GetLength(1); j++)
             {
-                if (array[i, j] < ArrayManipulation.DES_VALUE && array[i, j] > 0)
+                if (_array[i, j] < ArrayManipulation.DES_VALUE && _array[i, j] > 0)
                 {
                     DestroyObjects.Instance.NotAdjacentDestroy(i, j);
                 }

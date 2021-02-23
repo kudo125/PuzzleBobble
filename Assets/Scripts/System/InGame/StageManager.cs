@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 using UniRx;
-
+/// <summary>
+/// ステージ処理管理クラス
+/// </summary>
 public class StageManager : MonoBehaviour
 {
     private void Start()

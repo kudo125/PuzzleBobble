@@ -3,17 +3,17 @@
     /// <summary>
     /// 代入用配列
     /// </summary>
-    private int[,] array = default;
+    private int[,] _array = default;
 
     /// <summary>
     /// 隣接バブルの番地情報格納用配列I
     /// </summary>
-    private int[] adjacentI = new int[130];
+    private int[] _adjacentI = new int[130];
 
     /// <summary>
     /// 隣接バブルの番地情報格納用配列J
     /// </summary>
-    private int[] adjacentJ = new int[130];
+    private int[] _adjacentJ = new int[130];
 
     /// <summary>
     /// 消えるまでのつながり上限値
@@ -23,18 +23,18 @@
     /// <summary>
     /// つながっているバブル数
     /// </summary>
-    private int ConnectCount = default;
+    private int _connectCount = default;
 
-    private int adjPointer = default;
+    private int _adjPointer = default;
 
     /// <summary>
     /// 基準値
     /// </summary>
-    private int criteria = default;
+    private int _criteria = default;
 
     private void Start()
     {
-        array = ArrayData.Array;
+        _array = ArrayData.Array;
     }
 
     /// <summary>
@@ -43,24 +43,24 @@
     public void AdjacentCheck()
     {
         //配列の初期化
-        adjacentI = Initialize.InitializeOneDimensionalArray(adjacentI);
-        adjacentJ = Initialize.InitializeOneDimensionalArray(adjacentJ);
+        _adjacentI = Initialize.IntInitializeOneDimensionalArray(_adjacentI);
+        _adjacentJ = Initialize.IntInitializeOneDimensionalArray(_adjacentJ);
 
-        adjacentI[0] = ArrayData.InstalledBubble[0];
-        adjacentJ[0] = ArrayData.InstalledBubble[1];
+        _adjacentI[0] = ArrayData.InstalledBubble[0];
+        _adjacentJ[0] = ArrayData.InstalledBubble[1];
 
-        criteria = array[adjacentI[0], adjacentJ[0]];
+        _criteria = _array[_adjacentI[0], _adjacentJ[0]];
 
         //カウントの初期化
-        ConnectCount = 0;
+        _connectCount = 0;
 
         //ポインターの初期化
-        adjPointer = 0;
+        _adjPointer = 0;
 
-        for (int i = 0; adjacentI[i] > 0; i++)
+        for (int i = 0; _adjacentI[i] > 0; i++)
         {
-            int adjI = adjacentI[i];
-            int adjJ = adjacentJ[i];
+            int adjI = _adjacentI[i];
+            int adjJ = _adjacentJ[i];
 
             //偶数の時
             if (adjI % 2 == 0)
@@ -97,7 +97,7 @@
         }
 
         //つながりバブルが一定数を超えるとゲームステータスを変更
-        if (ConnectCount >= DES_LINE)
+        if (_connectCount >= DES_LINE)
         {
             GameStatus.GameStatusReactivePropety.Value = GameStatusEnum.Destroy;
         }
@@ -107,7 +107,7 @@
             //配列の情報を元の状態に戻す
             Undo.UndoArray();
 
-            GameStatus.GameStatusReactivePropety.Value = GameStatusEnum.Idle;
+            GameStatus.GameStatusReactivePropety.Value = GameStatusEnum.ArrayCheck;
         }
     }
 
@@ -120,24 +120,24 @@
     /// <param name="nextToJ">先の番地J</param>
     private void Check(int i, int j, int nextToI, int nextToJ)
     {
-        if (criteria == array[nextToI, nextToJ] && array[nextToI, nextToJ] < ArrayManipulation.DES_VALUE)
+        if (_criteria == _array[nextToI, nextToJ] && _array[nextToI, nextToJ] < ArrayManipulation.DES_VALUE)
         {
             //配列の値に定数をプラスした値に置き換える
-            array[i, j] = criteria + ArrayManipulation.DES_VALUE;
-            array[nextToI, nextToJ] = criteria + ArrayManipulation.DES_VALUE;
+            _array[i, j] = _criteria + ArrayManipulation.DES_VALUE;
+            _array[nextToI, nextToJ] = _criteria + ArrayManipulation.DES_VALUE;
 
-            ConnectCount++;
+            _connectCount++;
 
-            adjPointer++;
-            adjacentI[adjPointer] = nextToI;
-            adjacentJ[adjPointer] = nextToJ;
+            _adjPointer++;
+            _adjacentI[_adjPointer] = nextToI;
+            _adjacentJ[_adjPointer] = nextToJ;
         }
-        if (criteria + ArrayManipulation.DES_VALUE == array[nextToI, nextToJ])
+        if (_criteria + ArrayManipulation.DES_VALUE == _array[nextToI, nextToJ])
         {
-            if(array[i,j]< ArrayManipulation.DES_VALUE)
+            if(_array[i,j]< ArrayManipulation.DES_VALUE)
             {
                 //配列の値に定数をプラスする
-                array[i, j] += ArrayManipulation.DES_VALUE;
+                _array[i, j] += ArrayManipulation.DES_VALUE;
             }
         }
     }

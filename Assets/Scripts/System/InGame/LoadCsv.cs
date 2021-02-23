@@ -7,7 +7,12 @@ public class LoadCsv : SingletonMonoBehaviour<LoadCsv>
 {
     private int[,] _array = default;
 
-    private int _stageNum = default;
+    private string _stageData = default;
+
+    public static int _stageNum 
+    {
+        get; set; 
+    } = default;
 
     protected override void Awake()
     {        
@@ -53,7 +58,7 @@ public class LoadCsv : SingletonMonoBehaviour<LoadCsv>
     {
         _stageNum++;
 
-        string textFileName = "Stage"+_stageNum+".csv";
+        string textFileName = "Stage" + _stageNum + ".csv";
 
         string path = null;
 
@@ -65,7 +70,9 @@ public class LoadCsv : SingletonMonoBehaviour<LoadCsv>
 
         yield return unityWebRequest.SendWebRequest();
 
-        ReadIntervalCSVData(unityWebRequest.downloadHandler.text);
+        _stageData = unityWebRequest.downloadHandler.text;
+
+        ReadIntervalCSVData(_stageData);
 
         yield break;
     }

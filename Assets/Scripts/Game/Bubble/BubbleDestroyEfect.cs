@@ -1,33 +1,30 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class BubbleDestroyEfect : MonoBehaviour
 {
-    const string destroyTag = "Destroy";
+    private const string ANIM_TRIGGER = "destroy";
 
-    const string animTrigger = "destroy";
+    private Animator _bubbleAnim = default;
 
-    private Animator bubbleAnim = default;
-
-    private Rigidbody bubbleRig = default;
+    private Rigidbody _bubbleRig = default;
 
     public void DestroyEfect()
     {
 
-        bubbleAnim = GetComponent<Animator>();
+        _bubbleAnim = GetComponent<Animator>();
 
-        bubbleAnim.SetTrigger(animTrigger);
+        _bubbleAnim.SetTrigger(ANIM_TRIGGER);
 
         StartCoroutine(DestroyObj());
     }
 
     public void Drop()
     {
-        bubbleRig = GetComponent<Rigidbody>();
+        _bubbleRig = GetComponent<Rigidbody>();
 
-        bubbleRig.constraints = RigidbodyConstraints.FreezeRotation;
-        bubbleRig.useGravity = true;
+        _bubbleRig.constraints = RigidbodyConstraints.FreezeRotation;
+        _bubbleRig.useGravity = true;
 
         StartCoroutine(DestroyObj());
     }
@@ -36,7 +33,7 @@ public class BubbleDestroyEfect : MonoBehaviour
     {
         GetComponent<SphereCollider>().enabled = false;
 
-        gameObject.tag = destroyTag;
+        gameObject.tag = Tags.DESTROY;
 
         yield return new WaitForSeconds(1f);
 

@@ -1,11 +1,10 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UniRx;
 
 public class SceneManager : SingletonMonoBehaviour<SceneManager>
 {
-    private GameObject[] sceneObj = default;
+    private GameObject[] _sceneObjs = default;
 
     private const int TITLE_NOM   = 0;
     private const int MENU_NOM    = 1;
@@ -13,13 +12,20 @@ public class SceneManager : SingletonMonoBehaviour<SceneManager>
 
     private void Start()
     {
-        sceneObj = new GameObject[transform.childCount];
+        _sceneObjs = new GameObject[transform.childCount];
 
         //子オブジェクトをすべて取得
         for (int i = 0; i < transform.childCount; i++)
         {
-            sceneObj[i] = transform.GetChild(i).gameObject;
+            _sceneObjs[i] = transform.GetChild(i).gameObject;
         }
+
+        //ゲームステータスがResetの時
+        GameStatus.SceneStatusReactivePropety
+            .DistinctUntilChanged()
+            .Where(status => status == SceneStatusEnum.Reset)
+            .Subscribe(_ => CallSceneChange(SceneStatusEnum.Title))
+            .AddTo(this);
     }
 
     /// <summary>
@@ -35,13 +41,15 @@ public class SceneManager : SingletonMonoBehaviour<SceneManager>
     {
         yield return new WaitForSeconds(0.2f);
 
+        print("scene " + scene);
+
         //シーンステータス変更
         GameStatus.SceneStatusReactivePropety.Value=scene;
 
         //シーンオブジェクトをすべてOFF
-        for (int i = 0; i < sceneObj.Length; i++)
+        for (int i = 0; i < _sceneObjs.Length; i++)
         {
-            sceneObj[i].SetActive(false);
+            _sceneObjs[i].SetActive(false);
         }
 
         yield return new WaitForSeconds(0.5f);
@@ -49,17 +57,19 @@ public class SceneManager : SingletonMonoBehaviour<SceneManager>
         if ((int)scene == TITLE_NOM)
         {
             //タイトルシーンに変更
-            sceneObj[TITLE_NOM].SetActive(true);
+            _sceneObjs[TITLE_NOM].SetActive(true);
+            AudioController.Instance.OpPlay();
         }
         else if ((int)scene == MENU_NOM)
         {
             //メニューシーンに変更
-            sceneObj[MENU_NOM].SetActive(true);
+            _sceneObjs[MENU_NOM].SetActive(true);
         }
         else if ((int)scene == GAME_NOM)
         {
             //ゲームシーンに変更
-            sceneObj[GAME_NOM].SetActive(true);
+            _sceneObjs[GAME_NOM].SetActive(true);
+            GameStatus.GameStatusReactivePropety.Value = GameStatusEnum.None;
         }
         yield break;
     }

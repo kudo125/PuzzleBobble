@@ -1,27 +1,25 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class BubbleShot : SingletonMonoBehaviour<BubbleShot>
 {
-    private GameObject audioController = default;
+    private GameObject _audioController = default;
 
-    private GameObject bubblePrfb = default;
+    private GameObject _bubblePrfb = default;
 
-    private Rigidbody bubbleRig = default;
+    private Rigidbody _bubbleRig = default;
 
-    private const float bubbleSpeed = 350f;
+    private const float _bubbleSpeed = 350f;
 
     private void Start()
     {
-        audioController = GameObject.FindWithTag(Tags.AUDIO);
+        _audioController = GameObject.FindWithTag(Tags.AUDIO);
     }
 
     public void SetPrefab(GameObject bubble)
     {
-        bubblePrfb = bubble;
-        GameObject bubbleObj = (GameObject)Instantiate(bubblePrfb, transform.position, Quaternion.identity);
-        bubbleRig = bubbleObj.GetComponent<Rigidbody>();
+        _bubblePrfb = bubble;
+        GameObject bubbleObj = (GameObject)Instantiate(_bubblePrfb, transform.position, Quaternion.identity);
+        _bubbleRig = bubbleObj.GetComponent<Rigidbody>();
     }
 
     public void Shot()
@@ -32,9 +30,9 @@ public class BubbleShot : SingletonMonoBehaviour<BubbleShot>
         float addforceY = Mathf.Cos(rad);
         Vector3 shotVector = new Vector3(addforceX, addforceY,0);
 
-        bubbleRig.AddForce(shotVector*bubbleSpeed);
+        _bubbleRig.AddForce(shotVector*_bubbleSpeed);
 
-        audioController.GetComponent<AudioController>().shotSEPlay();
+        _audioController.GetComponent<AudioController>().ShotSePlay();
 
         GameStatus.PlayerStatusReactiveProperty.Value = PlayerStatusEnum.SetBubble;
     }

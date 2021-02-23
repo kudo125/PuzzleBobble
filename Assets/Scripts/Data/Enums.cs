@@ -9,15 +9,15 @@ public enum GameStatusEnum
     ConnectionCheck,
     Destroy,
     Hanging,
-    GameOver,
-    Clear
+    ArrayCheck
 }
 
 public enum SceneStatusEnum
 {
     Title,
     Menu,
-    Game
+    Game,
+    Reset
 }
 
 public enum PlayerStatusEnum

@@ -2,47 +2,47 @@
 
 public class StageCreate : SingletonMonoBehaviour<StageCreate>
 {
-    private GameObject[,] gameObjectsArray = default;
+    private int[,] _array = default;
 
-    private int[,] array = default;
-
-    private GameObject bubblePrefab = default;
+    private GameObject _bubblePrefab = default;
 
     //prefab取得用（以下6つ）
-    private GameObject redBubble = default;
-    private GameObject blueBubble = default;
-    private GameObject yellowBubble = default;
-    private GameObject greenBubble = default;
-    private GameObject purpleBubble = default;
-    private GameObject basis = default;
+    private GameObject _redBubble = default;
+    private GameObject _blueBubble = default;
+    private GameObject _yellowBubble = default;
+    private GameObject _greenBubble = default;
+    private GameObject _purpleBubble = default;
+    private GameObject _basis = default;
 
     private void Start()
     {
-        gameObjectsArray = ArrayData.GameObjectsArray;
-        array = ArrayData.Array;
+        _array = ArrayData.Array;
 
         //prefabを読み込み
-        redBubble = Resources.Load<GameObject>(Pass.PREFAB + "/" + Pass.RED_BUBBLE_NAME);
-        blueBubble = (GameObject)Resources.Load(Pass.PREFAB + "/" + Pass.BLUE_BUBBLE_NAME);
-        yellowBubble = (GameObject)Resources.Load(Pass.PREFAB + "/" + Pass.YELLOW_BUBBLE_NAME);
-        greenBubble = (GameObject)Resources.Load(Pass.PREFAB + "/" + Pass.GREEN_BUBBLE_NAME);
-        purpleBubble = (GameObject)Resources.Load(Pass.PREFAB + "/" + Pass.PURPLE_BUBBLE_NAME);
-        basis = (GameObject)Resources.Load(Pass.PREFAB + "/" + Pass.BASIS_NAME);
+        _redBubble = (GameObject)Resources.Load(Pass.PREFAB + "/" + Pass.RED_BUBBLE_NAME);
+        _blueBubble = (GameObject)Resources.Load(Pass.PREFAB + "/" + Pass.BLUE_BUBBLE_NAME);
+        _yellowBubble = (GameObject)Resources.Load(Pass.PREFAB + "/" + Pass.YELLOW_BUBBLE_NAME);
+        _greenBubble = (GameObject)Resources.Load(Pass.PREFAB + "/" + Pass.GREEN_BUBBLE_NAME);
+        _purpleBubble = (GameObject)Resources.Load(Pass.PREFAB + "/" + Pass.PURPLE_BUBBLE_NAME);
+        _basis = (GameObject)Resources.Load(Pass.PREFAB + "/" + Pass.BASIS_NAME);
     }
 
     public void SetStage()
     {
-        for (int i = 1; i < array.GetLength(0) - 1; i++)
+        //基盤を生成
+        SetBasis();
+
+        for (int i = 1; i < _array.GetLength(0) - 1; i++)
         {
-            for (int j = 1; j < array.GetLength(1) - 1; j++)
+            for (int j = 1; j < _array.GetLength(1) - 1; j++)
             {
-                if (i % 2 != 0 && j == array.GetLength(1) - 1)
+                if (i % 2 != 0 && j == _array.GetLength(1) - 1)
                 {
                     //この番地は使わない
                 }
                 else
                 {
-                    BubbleSet(array[i, j], i, j);
+                    BubbleSet(_array[i, j], i, j);
                 }
             }
         }
@@ -53,33 +53,30 @@ public class StageCreate : SingletonMonoBehaviour<StageCreate>
 
     private void BubbleSet(int value, int i, int j)
     {
-        bubblePrefab = default;
+        _bubblePrefab = default;
         switch (value)
         {
             case ArrayManipulation.RED_BUBBLE:
-                bubblePrefab = redBubble;
+                _bubblePrefab = _redBubble;
                 break;
             case ArrayManipulation.BLUE_BUBBLE:
-                bubblePrefab = blueBubble;
+                _bubblePrefab = _blueBubble;
                 break;
             case ArrayManipulation.YELLOW_BUBBLE:
-                bubblePrefab = yellowBubble;
+                _bubblePrefab = _yellowBubble;
                 break;
             case ArrayManipulation.GREEN_BUBBLE:
-                bubblePrefab = greenBubble;
+                _bubblePrefab = _greenBubble;
                 break;
             case ArrayManipulation.PURPLE_BUBBLE:
-                bubblePrefab = purpleBubble;
-                break;
-            case ArrayManipulation.BASIS:
-                bubblePrefab = basis;
+                _bubblePrefab = _purpleBubble;
                 break;
         }
 
-        if (bubblePrefab != null)
+        if (_bubblePrefab != null)
         {
             //バブルオブジェクト生成
-            GameObject bubbleObj = Instantiate(bubblePrefab, PositonCalculation(i, j), Quaternion.identity);
+            GameObject bubbleObj = Instantiate(_bubblePrefab, PositonCalculation(i, j), Quaternion.identity);
 
             //設置済みバブルにする
             bubbleObj.GetComponent<BubblePlaced>().Placed();
@@ -110,5 +107,22 @@ public class StageCreate : SingletonMonoBehaviour<StageCreate>
         }
 
         return bubblePosi;
+    }
+
+    /// <summary>
+    /// 基盤部分の生成
+    /// </summary>
+    private void SetBasis()
+    {
+        for (int j = 0; j < _array.GetLength(1); j++)  
+        {
+            if(_array[0,j]== ArrayManipulation.BASIS)
+            {
+                GameObject basisObj = Instantiate(_basis, new Vector3(transform.position.x + j * ArrayManipulation.BUBBLE_SIZE, transform.position.y), Quaternion.identity);
+
+                //基盤に配列位置を持たせる
+                basisObj.GetComponent<BubblePosition>().SetBubblePosition(0, j);
+            }
+        }
     }
 }

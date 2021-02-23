@@ -1,22 +1,20 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class NextBubble : SingletonMonoBehaviour<NextBubble>
 {
-    private int[,] array = default;
+    private int[,] _array = default;
 
-    private GameObject bubblePrfb = default;
+    private GameObject _bubblePrfb = default;
 
-    private Transform nextTransform = default;
+    private Transform _nextTransform = default;
 
-    private GameObject NextBubbleObj=default;
+    private GameObject _nextBubbleObj=default;
 
     override protected void Awake()
     {
-        nextTransform = GameObject.FindWithTag("Next").GetComponent<Transform>();
+        _nextTransform = GameObject.FindWithTag("Next").GetComponent<Transform>();
 
-        array = ArrayData.Array;
+        _array = ArrayData.Array;
     }
 
     /// <summary>
@@ -31,11 +29,11 @@ public class NextBubble : SingletonMonoBehaviour<NextBubble>
         bool purple = default;
         bool yellow = default;
 
-        for (int i = 0; i < array.GetLength(0); i++) 
+        for (int i = 0; i < _array.GetLength(0); i++) 
         {
-            for(int j = 0; j < array.GetLength(1); j++)
+            for(int j = 0; j < _array.GetLength(1); j++)
             {
-                int bubbleValue = array[i, j];
+                int bubbleValue = _array[i, j];
 
                 if (bubbleValue == 1)
                 {
@@ -109,20 +107,20 @@ public class NextBubble : SingletonMonoBehaviour<NextBubble>
             }
         }
         
-        bubblePrfb = (GameObject)Resources.Load(Pass.PREFAB + "/" + bubblePass);
+        _bubblePrfb = (GameObject)Resources.Load(Pass.PREFAB + "/" + bubblePass);
         
-        return bubblePrfb;
+        return _bubblePrfb;
     }
 
     public void NextBubbleSet()
     {
-        NextBubbleObj = Instantiate(LoadBubble(), nextTransform.position, Quaternion.identity); 
+        _nextBubbleObj = Instantiate(LoadBubble(), _nextTransform.position, Quaternion.identity); 
     }
 
     public void SetShotBubble()
     {
-        BubbleShot.Instance.SetPrefab(NextBubbleObj);
-        Destroy(NextBubbleObj);
+        BubbleShot.Instance.SetPrefab(_nextBubbleObj);
+        Destroy(_nextBubbleObj);
         NextBubbleSet();
     }
 }

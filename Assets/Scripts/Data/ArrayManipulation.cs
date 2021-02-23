@@ -16,7 +16,7 @@ public class ArrayManipulation
     /// <summary>
     /// バブルの大きさ
     /// </summary>
-    public const float BUBBLE_SIZE = 0.61f;
+    public const float BUBBLE_SIZE = 0.62f;
 
     /// <summary>
     /// 赤バブルの値

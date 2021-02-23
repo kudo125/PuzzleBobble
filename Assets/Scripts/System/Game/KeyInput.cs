@@ -8,27 +8,27 @@ public class KeyInput : SingletonMonoBehaviour<KeyInput>
     const string VERTICAL   = "Vertical";
 
     //入力値を送る
-    private Subject<float> inputHorizontal = new Subject<float>();
-    private Subject<float> inputVertical   = new Subject<float>();
-    private Subject<bool>  inputB          = new Subject<bool>();
-    private Subject<bool>  inputExit       = new Subject<bool>();
+    private Subject<float> _inputHorizontal = new Subject<float>();
+    private Subject<float> _inputVertical   = new Subject<float>();
+    private Subject<bool>  _inputB          = new Subject<bool>();
+    private Subject<bool>  _inputExit       = new Subject<bool>();
 
     //IObservableに対してSubscribeする
     public IObservable<float> OnInputHorizontal
     {
-        get { return inputHorizontal; }
+        get { return _inputHorizontal; }
     }
     public IObservable<float> OnInputVertical
     {
-        get { return inputVertical; }
+        get { return _inputVertical; }
     }
     public IObservable<bool> OnInputB
     {
-        get { return inputB; }
+        get { return _inputB; }
     }
     public IObservable<bool> OnInputExit
     {
-        get { return inputExit; }
+        get { return _inputExit; }
     }
 
     private void Update()
@@ -44,9 +44,9 @@ public class KeyInput : SingletonMonoBehaviour<KeyInput>
     /// </summary>
     private void InputB()
     {
-        if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Joystick1Button0))
+        if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Joystick1Button1))
         {
-            inputB.OnNext(true);
+            _inputB.OnNext(true);
         }
     }
 
@@ -59,7 +59,7 @@ public class KeyInput : SingletonMonoBehaviour<KeyInput>
 
         if (horizontalValue != 0)
         {
-            inputHorizontal.OnNext(horizontalValue);
+            _inputHorizontal.OnNext(horizontalValue);
         }
     }
 
@@ -72,7 +72,7 @@ public class KeyInput : SingletonMonoBehaviour<KeyInput>
 
         if (verticalValue != 0)
         {
-            inputVertical.OnNext(verticalValue);
+            _inputVertical.OnNext(verticalValue);
         }
     }
 
@@ -83,7 +83,7 @@ public class KeyInput : SingletonMonoBehaviour<KeyInput>
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            inputExit.OnNext(true);
+            _inputExit.OnNext(true);
         }
     }
 }

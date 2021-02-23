@@ -1,29 +1,27 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class BubbleBounds : MonoBehaviour
 {
-    private Rigidbody bubbleRig = default;
+    private Rigidbody _bubbleRig = default;
 
-    private int boundsDirection = default;
+    private int _boundsDirection = default;
 
     private void Start()
     {
-        bubbleRig = GetComponent<Rigidbody>();
+        _bubbleRig = GetComponent<Rigidbody>();
     }
 
     private void Update()
     {
-        if (transform.position.x > 2.2f&&boundsDirection>-1)
+        if (transform.position.x > 2.2f&&_boundsDirection>-1)
         {
-            bubbleRig.velocity = new Vector3(-bubbleRig.velocity.x,bubbleRig.velocity.y);
-            boundsDirection = -1;
+            _bubbleRig.velocity = new Vector3(-_bubbleRig.velocity.x,_bubbleRig.velocity.y);
+            _boundsDirection = -1;
         }
-        else if(transform.position.x < -2.2f&&boundsDirection<1)
+        else if(transform.position.x < -2.2f&&_boundsDirection<1)
         {
-            bubbleRig.velocity = new Vector3(-bubbleRig.velocity.x, bubbleRig.velocity.y);
-            boundsDirection = 1;
+            _bubbleRig.velocity = new Vector3(-_bubbleRig.velocity.x, _bubbleRig.velocity.y);
+            _boundsDirection = 1;
         }
     }
 }

@@ -5,27 +5,42 @@ using UniRx;
 
 public class GameManager : MonoBehaviour
 {
-    private GameObject audioController = default;
+    private GameObject _audioController = default;
 
-    private GameObject resultObj = default;
+    private GameObject _resultObj = default;
 
-    private GameObject gameOverObj = default;
+    private GameObject _gameOverObj = default;
 
+    private SpriteRenderer _resultSprite = default;
 
-    const string resultTag = "Clear";
+    private Text _gameOveText = default;
 
-    const string audioTag = "Audio";
+    private bool _gameOver = default;
 
-    const string gameOverTag = "GameOver";
+    private bool _shotReady = default;
 
-    private SpriteRenderer resultSprite = default;
+    private bool _idle = default;
 
-    private Text gameOveText = default;
+    private void Awake()
+    {
 
-    private bool gameOver = default;
+        _resultObj = GameObject.FindWithTag(Tags.CLEAR);
+        _gameOverObj = GameObject.FindWithTag(Tags.GAME_OVER);
+        _audioController = GameObject.FindWithTag(Tags.AUDIO);
+        _resultSprite = _resultObj.GetComponent<SpriteRenderer>();
+        _gameOveText = _gameOverObj.GetComponent<Text>();
 
-    //------------------------------------------------------------------------------------------------------------------
- 
+    }
+
+    private void Update()
+    {
+        if (_shotReady && _idle)
+        {
+            GameStatus.PlayerStatusReactiveProperty.Value = PlayerStatusEnum.ShotReady;
+            _idle = default;
+            _shotReady = default;
+        }
+    }
 
     private void Start()
     {
@@ -58,89 +73,114 @@ public class GameManager : MonoBehaviour
            .Subscribe(_ => HangingCheck.Instance.TargetObjectSearch())
            .AddTo(this);
 
-        //ゲームステータスがIdleでプレイヤーステータスがShotExecutedの時
+        //ゲームステータスがArrayCheckの時
         GameStatus.GameStatusReactivePropety
           .DistinctUntilChanged()
-          .Where(status => status == GameStatusEnum.Idle
-                 && GameStatus.PlayerStatusReactiveProperty.Value == PlayerStatusEnum.ShotExecuted)
-          .Subscribe(status=> GameStatus.PlayerStatusReactiveProperty.Value=PlayerStatusEnum.ShotReady)
+          .Where(status => status == GameStatusEnum.ArrayCheck)
+          .Subscribe(status => ArrayCheck())
           .AddTo(this);
-    }
 
-    public void GameStart()
-    {
-       
-        resultObj = GameObject.FindWithTag(resultTag);
-        gameOverObj = GameObject.FindWithTag(gameOverTag);
-        audioController = GameObject.FindWithTag(audioTag);
-        resultSprite = resultObj.GetComponent<SpriteRenderer>();
-        gameOveText = gameOverObj.GetComponent<Text>();
-        
+        //ゲームステータスがIdleの時
+        GameStatus.GameStatusReactivePropety
+          .DistinctUntilChanged()
+          .Where(status => status == GameStatusEnum.Idle)
+          .Subscribe(status => _idle=true)
+          .AddTo(this);
+
+        //プレイヤーステータスがShotExecutedの時
+        GameStatus.PlayerStatusReactiveProperty
+          .DistinctUntilChanged()
+          .Where(status => status == PlayerStatusEnum.ShotExecuted)
+          .Subscribe(status => _shotReady = true)
+          .AddTo(this);
     }
 
     private IEnumerator StartDelay()
     {
+        AudioController.Instance.BgmPlay();
+
         //ゲームスタート時バブルをセット
         NextBubble.Instance.NextBubbleSet();
         NextBubble.Instance.SetShotBubble();
 
-        yield return new WaitForSeconds(3f);
-
         GameStatus.PlayerStatusReactiveProperty.Value = PlayerStatusEnum.ShotReady;
-
         yield break;
     }
 
-    //--------------------------------------------------------別クラス
-    public void GameEndCheck(int[,] array)
+    public void ArrayCheck()
     {
         int bubbleCount = default;
 
-        for (int i = 0; i < array.GetLength(0); ++i)
+        for (int i = 0; i < ArrayData.Array.GetLength(0); ++i)
         {
-            for (int j = 0; j < array.GetLength(1); ++j)
+            for (int j = 0; j < ArrayData.Array.GetLength(1); ++j)
             {
-                if (array[i, j] > 0)
+                if (i == ArrayData.Array.GetLength(0)-1 && ArrayData.Array[i, j] > 0) 
+                {
+                    _gameOver = true;
+                }
+
+                if (ArrayData.Array[i, j] > 0)
                 {
                     bubbleCount++;
                 }
             }
         }
 
-        if (gameOver)
+        if (_gameOver)
         {
             StartCoroutine(GameOver());
         }
         else if (bubbleCount == 0)
         {
-           StartCoroutine(GameClear());
+            StartCoroutine(GameClear());
         }
-        
+        else
+        {
+            //判定を取れなければゲームステータス変更
+            GameStatus.GameStatusReactivePropety.Value = GameStatusEnum.Idle;
+        }
     }
 
-    public void GameEnd()
-    {
-        StartCoroutine(GameOver());
-    }
-
-    //--------------------------------------------------------------------------------------- AudioManagerに移動
     private IEnumerator GameOver()
     {
         yield return new WaitForSeconds(0.5f);
-        audioController.GetComponent<AudioController>().GameOverSE();
-        gameOveText.enabled = true;
-        yield return new WaitForSeconds(5f);
+        _audioController.GetComponent<AudioController>().GameOverSePlay();
+        _gameOveText.enabled = true;
+        yield return new WaitForSeconds(3f);
+        _gameOveText.enabled = false;
+        LoadCsv._stageNum = LoadCsv._stageNum - 1;
+        _gameOver = false;
+        StartCoroutine(NextStage());
         yield break;
     }
 
     private IEnumerator GameClear()
     {
         yield return new WaitForSeconds(0.5f);
-        audioController.GetComponent<AudioController>().ClearSE();
-        resultSprite.enabled = true;
-        yield return new WaitForSeconds(5f);
+        _audioController.GetComponent<AudioController>().ClearSePlay();
+        _resultSprite.enabled = true;
+        yield return new WaitForSeconds(3f);
+        _resultSprite.enabled = false;
+        StartCoroutine(NextStage());
         yield break;
     }
-    //ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーplayerControllerから呼び出し
-    
+
+    private IEnumerator NextStage()
+    {
+        StageReset.StageDestroy();
+
+        if (StageOrder.StageQuantity <= LoadCsv._stageNum)
+        {
+            print("ok");
+            GameStatus.SceneStatusReactivePropety.Value = SceneStatusEnum.Reset;
+            LoadCsv._stageNum = 0;
+        }
+        else
+        {
+            SceneManager.Instance.CallSceneChange(SceneStatusEnum.Game);
+        }
+
+        yield break;
+    }
 }

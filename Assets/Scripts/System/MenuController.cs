@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using UniRx;
+using System;
 
 public class MenuController : MonoBehaviour
 {
@@ -11,8 +12,9 @@ public class MenuController : MonoBehaviour
 
         //Bボタンでメニューからゲームシーンに移動
         KeyInput.Instance.OnInputB
+            .ThrottleFirst(TimeSpan.FromSeconds(1))
             .Where(scene => GameStatus.SceneStatusReactivePropety.Value==SceneStatusEnum.Menu)
-            .Subscribe(scene => SceneManager.Instance.CallSceneChange(SceneStatusEnum.Game))
+            .Subscribe(scene => ButtonDown())
             .AddTo(this);
 
         //上下キーでカーソル移動
@@ -20,5 +22,11 @@ public class MenuController : MonoBehaviour
             .Where(verticl => GameStatus.SceneStatusReactivePropety.Value==SceneStatusEnum.Menu)
             .Subscribe(vertical => modeSelect.Select(vertical))
             .AddTo(this);
+    }
+
+    private void ButtonDown()
+    {
+        AudioController.Instance.ClickSePlay();
+        SceneManager.Instance.CallSceneChange(SceneStatusEnum.Game);
     }
 }

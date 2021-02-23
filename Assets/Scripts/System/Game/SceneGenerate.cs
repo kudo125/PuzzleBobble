@@ -2,7 +2,7 @@
 
 public class SceneGenerate : MonoBehaviour
 {
-    private GameObject[] sceneInstances = default;
+    private GameObject[] _sceneInstances = default;
 
     private void Awake()
     {
@@ -14,13 +14,13 @@ public class SceneGenerate : MonoBehaviour
             (GameObject)Resources.Load(ResourcesPass.PREFAB_PASS + "/" + ResourcesPass.GAME_SCENE)
         };
 
-        sceneInstances = new GameObject[scenePrefabs.Length];
+        _sceneInstances = new GameObject[scenePrefabs.Length];
 
         //Sceneを生成
         for (int i = 0; i < scenePrefabs.Length; i++)
         {
-            sceneInstances[i] = Instantiate(scenePrefabs[i]);
-            sceneInstances[i].transform.parent = this.gameObject.transform;
+            _sceneInstances[i] = Instantiate(scenePrefabs[i]);
+            _sceneInstances[i].transform.parent = this.gameObject.transform;
         }
     }
 }
