@@ -73,10 +73,13 @@
                 Check(adjI, adjJ, adjI, adjJ - 1);
                 //右を見る
                 Check(adjI, adjJ, adjI, adjJ + 1);
-                //左下を見る
-                Check(adjI, adjJ, adjI + 1, adjJ);
-                //右下を見る
-                Check(adjI, adjJ, adjI + 1, adjJ + 1);
+                if (adjI < ArrayData.Array.GetLength(0)-1)
+                {
+                    //左下を見る
+                    Check(adjI, adjJ, adjI + 1, adjJ);
+                    //右下を見る
+                    Check(adjI, adjJ, adjI + 1, adjJ + 1);
+                }
             }
             //奇数の時
             else
@@ -89,10 +92,13 @@
                 Check(adjI, adjJ, adjI, adjJ - 1);
                 //右を見る
                 Check(adjI, adjJ, adjI, adjJ + 1);
-                //左下を見る
-                Check(adjI, adjJ, adjI + 1, adjJ - 1);
-                //右下を見る
-                Check(adjI, adjJ, adjI + 1, adjJ);
+                if (adjI < ArrayData.Array.GetLength(0)-1)
+                {
+                    //左下を見る
+                    Check(adjI, adjJ, adjI + 1, adjJ - 1);
+                    //右下を見る
+                    Check(adjI, adjJ, adjI + 1, adjJ);
+                }
             }
         }
 

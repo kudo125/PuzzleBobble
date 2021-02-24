@@ -41,8 +41,6 @@ public class SceneManager : SingletonMonoBehaviour<SceneManager>
     {
         yield return new WaitForSeconds(0.2f);
 
-        print("scene " + scene);
-
         //シーンステータス変更
         GameStatus.SceneStatusReactivePropety.Value=scene;
 
